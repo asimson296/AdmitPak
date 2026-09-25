@@ -75,10 +75,15 @@ document.addEventListener("DOMContentLoaded", () => {
         }`;
 
         if (results.length === 0) {
+            noResults.innerHTML = `
+                <h3>No universities match your search</h3>
+                <p>Try a different keyword or clear your filters.</p>
+            `;
             noResults.hidden = false;
             return;
         }
         noResults.hidden = true;
+        noResults.innerHTML = "";
 
         results.forEach(u => {
             const card = document.createElement("article");
