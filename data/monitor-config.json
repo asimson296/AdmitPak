@@ -1,0 +1,337 @@
+{
+  "version": 2,
+  "monitoring": {
+    "enabled": true,
+    "requireAdminApproval": true,
+    "supportedSourceTypes": [
+      "html",
+      "pdf"
+    ]
+  },
+  "universities": [
+    {
+      "universityId": 2,
+      "universityName": "FAST-NUCES",
+      "sources": [
+        {
+          "id": "fast-admission-schedule",
+          "name": "Admission Schedule",
+          "url": "https://www.nu.edu.pk/Admissions/Schedule",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        },
+        {
+          "id": "fast-offered-programs",
+          "name": "Offered Programs",
+          "url": "https://www.nu.edu.pk/Admissions/OfferedPrograms",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        },
+        {
+          "id": "fast-fee-structure",
+          "name": "Fee Structure",
+          "url": "https://www.nu.edu.pk/Admissions/FeeStructure",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        },
+        {
+          "id": "fast-scholarships",
+          "name": "Scholarships",
+          "url": "https://www.nu.edu.pk/Admissions/Scholarship",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        },
+        {
+          "id": "fast-eligibility",
+          "name": "Eligibility Criteria",
+          "url": "https://www.nu.edu.pk/Admissions/EligibilityCriteria",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        }
+      ]
+    },
+    {
+      "universityId": 1,
+      "universityName": "NUST",
+      "sources": [
+        {
+          "id": "nust-dates",
+          "name": "Dates to Remember",
+          "url": "https://nust.edu.pk/admissions/undergraduates/dates-to-remember/",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        },
+        {
+          "id": "nust-programs",
+          "name": "UG Programmes",
+          "url": "https://nust.edu.pk/admissions/undergraduates/list-of-ug-programmes-and-institutions/",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        },
+        {
+          "id": "nust-fees",
+          "name": "Financial Matters",
+          "url": "https://nust.edu.pk/admissions/fee-structure/undergraduate-financial-matters/",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        },
+        {
+          "id": "nust-scholarships",
+          "name": "Scholarships",
+          "url": "https://nust.edu.pk/admissions/scholarships/financial-assistance-for-undergraduate-students/",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        },
+        {
+          "id": "nust-eligibility",
+          "name": "Eligibility Criteria",
+          "url": "https://nust.edu.pk/admissions/undergraduates/eligibility-criteria-for-ug-programmes/",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        }
+      ]
+    },
+    {
+      "universityId": 3,
+      "universityName": "COMSATS",
+      "sources": [
+        {
+          "id": "comsats-admissions",
+          "name": "Admissions Home",
+          "url": "https://admissions.comsats.edu.pk/Home/Index",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        },
+        {
+          "id": "comsats-programs",
+          "name": "UG Programs",
+          "url": "https://admissions.comsats.edu.pk/Home/ProgramDetails#panel-undergrad",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        },
+        {
+          "id": "comsats-fees",
+          "name": "Fee Structure (PDF)",
+          "url": "https://admissions.comsats.edu.pk/Content/files/Fee-Structure-Fall-2026%20(2).pdf",
+          "type": "pdf",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        },
+        {
+          "id": "comsats-scholarships",
+          "name": "Scholarships",
+          "url": "https://ww2.comsats.edu.pk/scholarships/",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        },
+        {
+          "id": "comsats-eligibility",
+          "name": "Eligibility Criteria",
+          "url": "https://admissions.comsats.edu.pk/Home/EligibilityCriteria?pt=BS",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        }
+      ]
+    },
+    {
+      "universityId": 4,
+      "universityName": "LUMS",
+      "sources": [
+        {
+          "id": "lums-admissions",
+          "name": "Admissions Home",
+          "url": "https://admissions.lums.edu.pk",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        },
+        {
+          "id": "lums-programs",
+          "name": "Programme Finder",
+          "url": "https://lums.edu.pk/programme-finder",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        },
+        {
+          "id": "lums-scholarships",
+          "name": "Financial Aid",
+          "url": "https://financial-aid.lums.edu.pk/financial-aid-options-fa",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        }
+      ]
+    },
+    {
+      "universityId": 5,
+      "universityName": "UET Lahore",
+      "sources": [
+        {
+          "id": "uet-admissions",
+          "name": "Admissions Home",
+          "url": "https://admission.uet.edu.pk/",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        },
+        {
+          "id": "uet-program-page",
+          "name": "Program / Fees / Eligibility",
+          "url": "https://admission.uet.edu.pk/program/1",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        },
+        {
+          "id": "uet-scholarships",
+          "name": "Scholarships News",
+          "url": "https://admission.uet.edu.pk/news/1",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": [
+            "\\d+\\s*views?",
+            "views?:\\s*\\d+",
+            "(Updated|Last Updated|Last Modified)[:\\s]*[A-Za-z0-9,\\s-]{5,40}",
+            "\\d{1,2}-[A-Za-z]{3,9}-\\d{4}",
+            "[A-Za-z]{3,9}\\s+\\d{1,2},\\s+\\d{4}"
+          ]
+        }
+      ]
+    }
+  ]
+}

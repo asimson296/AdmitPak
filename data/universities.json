@@ -1,0 +1,2262 @@
+[
+  {
+    "id": 1,
+    "name": "NUST",
+    "fullName": "National University of Sciences and Technology",
+    "slug": "nust",
+    "city": "Islamabad",
+    "province": "Islamabad Capital Territory",
+    "officialWebsite": "https://nust.edu.pk",
+    "applicationPortal": "https://ugadmissions.nust.edu.pk",
+    "admission": {
+      "status": "not-announced",
+      "lastCycle": {
+        "year": 2026,
+        "applicationClose": "2026-07-25",
+        "classesStart": "2026-09-01"
+      },
+      "nextCycle": {
+        "year": 2027,
+        "published": true,
+        "applicationOpen": "2026-10-04",
+        "applicationClose": "2027-07-25",
+        "expectedWindow": "Oct 2026 – Jul 2027",
+        "note": "NET has 4 series. Registration for Series 1 opens 4 Oct 2026."
+      },
+      "applicationFee": "Rs. 35,000 (Admission Processing Fee, one-time, non-refundable)",
+      "lastVerified": "2026-09-24",
+      "verificationStatus": "verified"
+    },
+    "fees": {
+      "admissionProcessingFee": "Rs. 35,000 (one-time, non-refundable)",
+      "securityDeposit": "Rs. 10,000 (refundable)",
+      "tuitionPerSemester": {
+        "engineeringComputingSciences": "Rs. 216,750",
+        "architectureSocialSciencesBusiness": "Rs. 302,950"
+      },
+      "miscChargesPerSemester": "Rs. 5,000 (sports, library, health, IT)",
+      "hbsLicensingFee": "Rs. 15,000/year (BBA, BS Accounting & Finance, BS Tourism & Hospitality Management only)",
+      "repeatCourseFeePerCreditHour": "Rs. 11,000",
+      "currency": "PKR",
+      "note": "Fees for 2026-27. Subject to revision."
+    },
+    "programs": [
+      {
+        "name": "Mechanical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Islamabad",
+          "Rawalpindi",
+          "Karachi"
+        ]
+      },
+      {
+        "name": "Electrical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Islamabad",
+          "Rawalpindi",
+          "Karachi"
+        ]
+      },
+      {
+        "name": "Mechatronics Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Rawalpindi"
+        ]
+      },
+      {
+        "name": "Civil Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Islamabad",
+          "Risalpur",
+          "Quetta"
+        ]
+      },
+      {
+        "name": "Chemical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "Metallurgy and Materials Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "Avionics Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Risalpur"
+        ]
+      },
+      {
+        "name": "Aerospace Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Islamabad",
+          "Risalpur"
+        ]
+      },
+      {
+        "name": "Environmental Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "Naval Architecture & Marine Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Karachi"
+        ]
+      },
+      {
+        "name": "Software Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Rawalpindi",
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "Computer Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Rawalpindi",
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BE Information Security",
+        "group": "Engineering",
+        "campuses": [
+          "Rawalpindi"
+        ]
+      },
+      {
+        "name": "Geoinformatics Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "Energy Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Computer Science",
+        "group": "Computing",
+        "campuses": [
+          "Islamabad",
+          "Quetta",
+          "Karachi"
+        ]
+      },
+      {
+        "name": "BS Data Science",
+        "group": "Computing",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Bioinformatics",
+        "group": "Computing",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Artificial Intelligence",
+        "group": "Computing",
+        "campuses": [
+          "Islamabad",
+          "Quetta"
+        ]
+      },
+      {
+        "name": "Bachelor of Business Administration (BBA)",
+        "group": "Business",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Accounting and Finance",
+        "group": "Business",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Tourism and Hospitality Management",
+        "group": "Business",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Economics",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Mass Communication",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Psychology",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Liberal Arts & Humanities",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "Bachelor of Public Administration",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "LLB",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS International Relations",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "Bachelor of Architecture",
+        "group": "Architecture & Design",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "Bachelor of Industrial Design",
+        "group": "Architecture & Design",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Mathematics",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Physics",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Chemistry",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Biotechnology",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Agriculture",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Environmental Science",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Robotics & AI",
+        "group": "Interdisciplinary",
+        "campuses": [
+          "Islamabad",
+          "Rawalpindi"
+        ]
+      },
+      {
+        "name": "BS Food Science and Technology",
+        "group": "Interdisciplinary",
+        "campuses": [
+          "Islamabad"
+        ]
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Merit Financial Assistance",
+        "type": "Internal",
+        "description": "Monthly stipend for UG students with semester GPA ≥ 3.5. Rs. 2,000–3,000/month depending on GPA (3.5 to 4.00)."
+      },
+      {
+        "name": "Need-Based Scholarship (NNBS)",
+        "type": "Internal",
+        "description": "Covers partial to full tuition for up to 4 years. Awarded on need-cum-merit basis via NFAAF form. Apply with admission application."
+      },
+      {
+        "name": "Zakat-Funded NNBS",
+        "type": "Internal",
+        "description": "Shariah-compliant Zakat-funded need-based scholarship for underprivileged students."
+      },
+      {
+        "name": "Interest-Free Loan (Ihsan Trust)",
+        "type": "Internal",
+        "description": "Shariah-compliant interest-free loan via NUST Trust Fund + Ihsan Trust. For students unable to afford tuition."
+      },
+      {
+        "name": "Fee Installments",
+        "type": "Internal",
+        "description": "Semester fees payable in installments (not for 1st semester dues)."
+      },
+      {
+        "name": "NUST Trust Fund Loan",
+        "type": "Internal",
+        "description": "Interest-free loan for students facing financial hardship."
+      },
+      {
+        "name": "HEC Scholarships",
+        "type": "External",
+        "description": "Higher Education Commission scholarships. Applied through HEC."
+      },
+      {
+        "name": "PEEF",
+        "type": "External",
+        "description": "Punjab Educational Endowment Fund. Punjab domicile, 60%+ in Intermediate, family income ≤ Rs. 60,000/month. Applied via NUST FAO."
+      },
+      {
+        "name": "BEEF",
+        "type": "External",
+        "description": "Balochistan Education Endowment Fund."
+      },
+      {
+        "name": "SEEF",
+        "type": "External",
+        "description": "Sindh Education Endowment Fund."
+      },
+      {
+        "name": "CMEEF (KPK)",
+        "type": "External",
+        "description": "Chief Minister's Education Endowment Fund, KPK."
+      },
+      {
+        "name": "Scottish Scholarship",
+        "type": "External",
+        "description": "Scottish scholarship program."
+      },
+      {
+        "name": "FEWS (Fazaia)",
+        "type": "External",
+        "description": "Fazaia Educational Welfare Scheme. For children of PAF personnel."
+      },
+      {
+        "name": "MMSL (Mazhar Memorial)",
+        "type": "External",
+        "description": "Mazhar Memorial Scholarship Loan."
+      },
+      {
+        "name": "Pakistan Bait-ul-Maal",
+        "type": "External",
+        "description": "Federal assistance program for deserving students."
+      }
+    ],
+    "eligibility": [
+      {
+        "group": "Engineering",
+        "programs": [
+          "Mechanical",
+          "Electrical",
+          "Mechatronics",
+          "Civil",
+          "Chemical",
+          "Metallurgy & Materials",
+          "Avionics",
+          "Aerospace",
+          "Environmental",
+          "Naval Arch & Marine",
+          "Software",
+          "Computer",
+          "Information Security",
+          "Geoinformatics",
+          "Energy"
+        ],
+        "sscMin": "60%",
+        "hsscMin": "60%",
+        "subjects": "Pre-Engineering OR CS group OR Pre-Medical OR Pre-Medical + Math",
+        "entryTests": [
+          "NUST Entry Test (NET)",
+          "SAT",
+          "ACT"
+        ],
+        "weightage": null
+      },
+      {
+        "group": "Computing",
+        "programs": [
+          "BS Computer Science",
+          "BS Data Science",
+          "BS AI",
+          "BS Bioinformatics"
+        ],
+        "sscMin": "60%",
+        "hsscMin": "60%",
+        "subjects": "Pre-Engineering OR CS group OR Pre-Medical OR Math as mandatory",
+        "entryTests": [
+          "NUST Entry Test (NET)",
+          "SAT",
+          "ACT"
+        ],
+        "weightage": null
+      },
+      {
+        "group": "BS Robotics & AI",
+        "programs": [
+          "BS Robotics & AI"
+        ],
+        "sscMin": "60%",
+        "hsscMin": "60%",
+        "subjects": "Pre-Engineering OR CS group OR Pre-Medical OR Math as mandatory",
+        "entryTests": [
+          "NUST Entry Test (NET)",
+          "SAT",
+          "ACT"
+        ],
+        "weightage": null
+      },
+      {
+        "group": "Natural & Applied Sciences",
+        "programs": [
+          "Biotechnology",
+          "Environmental Science",
+          "Agriculture",
+          "Food Science & Tech"
+        ],
+        "sscMin": "60%",
+        "hsscMin": "60%",
+        "subjects": "Pre-Medical (Biology, Physics, Chemistry)",
+        "entryTests": [
+          "NUST Entry Test (NET)",
+          "SAT",
+          "ACT"
+        ],
+        "weightage": null
+      },
+      {
+        "group": "Business & Social Sciences",
+        "programs": [
+          "BBA",
+          "BS Economics",
+          "BS Mass Communication",
+          "BS Public Administration",
+          "BS Psychology",
+          "BS Tourism & Hospitality",
+          "BS Liberal Arts",
+          "BS International Relations"
+        ],
+        "sscMin": "60%",
+        "hsscMin": "60%",
+        "subjects": "Any HSSC combination",
+        "entryTests": [
+          "NUST Entry Test (NET)",
+          "SAT",
+          "ACT"
+        ],
+        "weightage": null
+      },
+      {
+        "group": "LLB",
+        "programs": [
+          "LLB"
+        ],
+        "sscMin": "60%",
+        "hsscMin": "60%",
+        "subjects": "Any HSSC combination",
+        "entryTests": [
+          "HEC Law Admission Test (LAT) ≥50%",
+          "NUST Entry Test (NET)"
+        ],
+        "weightage": null
+      },
+      {
+        "group": "BS Accounting & Finance",
+        "programs": [
+          "BS Accounting & Finance"
+        ],
+        "sscMin": "60%",
+        "hsscMin": "60%",
+        "subjects": "Mathematics OR Accounting/Finance/Accountancy mandatory",
+        "entryTests": [
+          "NUST Entry Test (NET)",
+          "SAT",
+          "ACT"
+        ],
+        "weightage": null
+      },
+      {
+        "group": "BS Math / Physics / Chemistry",
+        "programs": [
+          "BS Mathematics",
+          "BS Physics",
+          "BS Chemistry"
+        ],
+        "sscMin": "60%",
+        "hsscMin": "60%",
+        "subjects": "Subject-specific (Math/Physics/Chemistry mandatory — varies by program)",
+        "entryTests": [
+          "NUST Entry Test (NET)",
+          "SAT",
+          "ACT"
+        ],
+        "weightage": null
+      },
+      {
+        "group": "Architecture & Industrial Design",
+        "programs": [
+          "B. Architecture",
+          "B. Industrial Design"
+        ],
+        "sscMin": "60%",
+        "hsscMin": "60%",
+        "subjects": "Mathematics + Physics mandatory",
+        "entryTests": [
+          "NUST Entry Test (NET)",
+          "SAT",
+          "ACT"
+        ],
+        "weightage": null
+      }
+    ],
+    "entryTest": "NUST Entry Test (NET) OR SAT OR ACT",
+    "about": {
+      "summary": "NUST is Pakistan's top-ranked university for engineering, computing and applied sciences, known for its rigorous academic standards and strong research output.",
+      "reputation": "Consistently ranked #1 in Pakistan across multiple global university rankings (QS, THE). Its graduates are recruited by top multinationals, tech companies and government organizations.",
+      "bestFor": "High-achieving students aiming for careers in engineering, computing, sciences or business, who want a research-driven, internationally recognized degree.",
+      "strengths": [
+        "Ranked #1 university in Pakistan (QS World University Rankings)",
+        "~40 undergraduate programs across 7 discipline groups",
+        "Multiple campuses nationwide (Islamabad, Rawalpindi, Karachi, Quetta, Risalpur)",
+        "Strong research output and industry partnerships"
+      ]
+    },
+    "sources": {
+      "admissions": "https://nust.edu.pk/admissions/undergraduates/dates-to-remember/",
+      "programs": "https://nust.edu.pk/admissions/undergraduates/list-of-ug-programmes-and-institutions/",
+      "fees": "https://nust.edu.pk/admissions/fee-structure/undergraduate-financial-matters/",
+      "scholarships": "https://nust.edu.pk/admissions/scholarships/financial-assistance-for-undergraduate-students/",
+      "eligibility": "https://nust.edu.pk/admissions/undergraduates/eligibility-criteria-for-ug-programmes/"
+    },
+    "changeHistory": [
+      {
+        "date": "2026-09-24",
+        "action": "Initial data population from official NUST website",
+        "source": "manual"
+      }
+    ],
+    "heroImage": "/images/universities/nust.webp"
+  },
+  {
+    "id": 2,
+    "name": "FAST-NUCES",
+    "fullName": "National University of Computer and Emerging Sciences",
+    "slug": "fast-nuces",
+    "city": "Islamabad",
+    "province": "Islamabad Capital Territory",
+    "officialWebsite": "https://www.nu.edu.pk",
+    "applicationPortal": "https://admissions.nu.edu.pk",
+    "admission": {
+      "status": "closed",
+      "lastCycle": {
+        "year": 2026,
+        "applicationOpen": "2026-05-20",
+        "applicationClose": "2026-06-30",
+        "testWindow": "2026-06-29 to 2026-07-10",
+        "meritList": "2026-07-22",
+        "formalities": "2026-07-27 to 2026-08-13",
+        "classesStart": "2026-08-17"
+      },
+      "nextCycle": {
+        "year": 2027,
+        "published": false,
+        "expectedWindow": "Jan–Feb 2027",
+        "note": "2027 admission schedule not yet published on official site."
+      },
+      "applicationFee": "Rs. 3,000 (Applicant Admission Fee)",
+      "lastVerified": "2026-09-24",
+      "verificationStatus": "verified"
+    },
+    "fees": {
+      "admissionFee": "Rs. 30,000 (one-time)",
+      "securityDeposit": "Rs. 20,000 (refundable)",
+      "tuitionPerCreditHour": "Rs. 12,000",
+      "studentActivitiesFund": "Rs. 2,500 per semester",
+      "estimatedSemesterFee": "Rs. 180,000 – 216,000 per semester",
+      "estimatedSemesterFeeNote": "AdmitPak estimate — 15–18 credit hours × Rs. 12,000 + Rs. 2,500 activities fund. Not an official figure.",
+      "currency": "PKR",
+      "note": "Fees effective from Fall 2026 semester. Only tuition rate is official; the semester estimate is calculated."
+    },
+    "programs": [
+      {
+        "name": "Bachelor of Business Administration (BBA)",
+        "group": "Business"
+      },
+      {
+        "name": "BS Accounting and Finance",
+        "group": "Business"
+      },
+      {
+        "name": "BS Business Analytics",
+        "group": "Business"
+      },
+      {
+        "name": "BS Financial Technology",
+        "group": "Business"
+      },
+      {
+        "name": "BS Artificial Intelligence",
+        "group": "Computing"
+      },
+      {
+        "name": "BS Computer Science",
+        "group": "Computing"
+      },
+      {
+        "name": "BS Cyber Security",
+        "group": "Computing"
+      },
+      {
+        "name": "BS Data Science",
+        "group": "Computing"
+      },
+      {
+        "name": "BS Software Engineering",
+        "group": "Computing"
+      },
+      {
+        "name": "BS Civil Engineering",
+        "group": "Engineering"
+      },
+      {
+        "name": "BS Electrical Engineering",
+        "group": "Engineering"
+      },
+      {
+        "name": "BS Computer Engineering",
+        "group": "Engineering"
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Merit Scholarship",
+        "type": "Internal",
+        "description": "Full tuition for top 3 board position holders and top 3 in NU merit list. Requires GPA ≥ 3.0."
+      },
+      {
+        "name": "Study Loan",
+        "type": "Internal",
+        "description": "Interest-free loan for bright, financially needy students. Repayable in 4 years after graduation."
+      },
+      {
+        "name": "Sindh Govt Endowment Board",
+        "type": "External",
+        "description": "Need-cum-merit, covers full tuition."
+      },
+      {
+        "name": "PEEF",
+        "type": "External",
+        "description": "Punjab Educational Endowment Fund."
+      },
+      {
+        "name": "Punjab Honhaar Scholarship",
+        "type": "External",
+        "description": "Punjab HEC initiative."
+      },
+      {
+        "name": "OSAF",
+        "type": "External",
+        "description": "Old Students Association of FAST — fee assistance."
+      },
+      {
+        "name": "FANA",
+        "type": "External",
+        "description": "FAST Alumni of North America — fee assistance."
+      },
+      {
+        "name": "Ihsan Trust",
+        "type": "External",
+        "description": "Fee assistance for needy students."
+      }
+    ],
+    "eligibility": [
+      {
+        "group": "BS Engineering",
+        "programs": [
+          "Civil Engineering",
+          "Electrical Engineering",
+          "Computer Engineering"
+        ],
+        "sscMin": "60%",
+        "hsscMin": "60%",
+        "subjects": "Pre-Engineering (Chemistry, Math, Physics) OR ICS (CS, Math, Physics)",
+        "entryTests": [
+          "FAST-NUCES Test",
+          "SAT",
+          "NTS NAT-IE"
+        ],
+        "weightage": {
+          "test": "33%",
+          "hssc": "50%",
+          "ssc": "17%"
+        }
+      },
+      {
+        "group": "BS Computing",
+        "programs": [
+          "AI",
+          "CS",
+          "Cyber Security",
+          "Data Science",
+          "Software Engineering"
+        ],
+        "sscMin": "60%",
+        "hsscMin": "50%",
+        "subjects": "Mathematics",
+        "entryTests": [
+          "FAST-NUCES Test",
+          "SAT",
+          "NTS NAT-IE / NAT-ICS"
+        ],
+        "weightage": {
+          "test": "50%",
+          "hssc": "40%",
+          "ssc": "10%"
+        }
+      },
+      {
+        "group": "Business Programs",
+        "programs": [
+          "BBA",
+          "Accounting & Finance",
+          "Business Analytics",
+          "Financial Technology"
+        ],
+        "sscMin": "60%",
+        "hsscMin": "50%",
+        "subjects": "None specific",
+        "entryTests": [
+          "FAST-NUCES Test",
+          "SAT",
+          "NTS NAT-IE / NAT-ICS / NAT-ICOM / NAT-IGS"
+        ],
+        "weightage": {
+          "test": "50%",
+          "hssc": "40%",
+          "ssc": "10%"
+        }
+      }
+    ],
+    "entryTest": "FAST-NUCES Test OR SAT OR NTS NAT (varies by program group)",
+    "sources": {
+      "admissions": "https://www.nu.edu.pk/Admissions/Schedule",
+      "programs": "https://www.nu.edu.pk/Admissions/OfferedPrograms",
+      "fees": "https://www.nu.edu.pk/Admissions/FeeStructure",
+      "scholarships": "https://www.nu.edu.pk/Admissions/Scholarship",
+      "eligibility": "https://www.nu.edu.pk/Admissions/EligibilityCriteria"
+    },
+    "changeHistory": [
+      {
+        "date": "2026-09-24",
+        "action": "Initial data population from official FAST-NUCES website",
+        "source": "manual"
+      }
+    ],
+    "about": {
+      "summary": "FAST-NUCES is one of Pakistan's leading universities for computing, engineering and business — known for its rigorous curriculum and strong tech-industry placement.",
+      "reputation": "Consistently ranked among Pakistan's top institutions for Computer Science, Software Engineering and Artificial Intelligence. FAST graduates are highly sought after by software houses, tech companies and multinationals.",
+      "bestFor": "Students aiming for careers in tech, engineering or business analytics, who are ready for a fast-paced, high-standard academic environment.",
+      "strengths": [
+        "Top-ranked in Computing & IT across Pakistan",
+        "Strong industry placement and alumni network (OSAF, FANA)",
+        "Competitive but merit-based admission (SAT/NTS/FAST test accepted)",
+        "Multiple campuses: Islamabad, Lahore, Karachi, Peshawar, Multan, Faisalabad"
+      ]
+    },
+    "heroImage": "/images/universities/fast-nuces.webp"
+  },
+  {
+    "id": 3,
+    "name": "COMSATS",
+    "fullName": "COMSATS University Islamabad",
+    "slug": "comsats",
+    "city": "Islamabad",
+    "province": "Islamabad Capital Territory",
+    "officialWebsite": "https://www.comsats.edu.pk",
+    "applicationPortal": "https://admissions.comsats.edu.pk",
+    "admission": {
+      "status": "not-announced",
+      "lastCycle": null,
+      "nextCycle": {
+        "year": 2027,
+        "published": false,
+        "expectedWindow": "Fall 2027 (Aug–Sep)",
+        "note": "Admission schedule not yet published. Fall + Spring intakes available (varies by program)."
+      },
+      "applicationFee": "Rs. 27,000 (Admission Fee, one-time)",
+      "lastVerified": "2026-09-24",
+      "verificationStatus": "verified"
+    },
+    "fees": {
+      "admissionFee": "Rs. 27,000 (one-time for new entrants)",
+      "degreeFee": "Rs. 10,000 (on degree completion)",
+      "tuitionPerSemester": {
+        "architectureDesign": "Rs. 183,500 (Registration 7,000 + Tuition 176,500)",
+        "pharmacy": "Rs. 176,500 (Registration 7,000 + Tuition 169,500)",
+        "engineering": "Rs. 166,500 (Registration 7,000 + Tuition 159,500)",
+        "computerSciences": "Rs. 160,500 (Registration 7,000 + Tuition 153,500)",
+        "otherPrograms": "Rs. 148,500 (Registration 7,000 + Tuition 141,500)"
+      },
+      "additionalSemesterFeePerCreditHour": "Rs. 6,000 (undergraduate level)",
+      "currency": "PKR",
+      "note": "Fees for Fall 2026 session. Subject to revision in subsequent semesters."
+    },
+    "programs": [
+      {
+        "name": "BS Chemical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BS Civil Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Abbottabad",
+          "Wah",
+          "Sahiwal"
+        ]
+      },
+      {
+        "name": "BS Computer Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Islamabad",
+          "Abbottabad",
+          "Wah",
+          "Attock",
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BS Electrical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Islamabad",
+          "Abbottabad",
+          "Wah",
+          "Lahore",
+          "Attock",
+          "Sahiwal"
+        ]
+      },
+      {
+        "name": "BS Electrical (Electronics) Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Islamabad",
+          "Abbottabad"
+        ]
+      },
+      {
+        "name": "BS Mechanical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Sahiwal",
+          "Wah"
+        ]
+      },
+      {
+        "name": "BS Artificial Intelligence",
+        "group": "Computing",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Computer Science",
+        "group": "Computing",
+        "campuses": [
+          "Islamabad",
+          "Abbottabad",
+          "Wah",
+          "Lahore",
+          "Attock",
+          "Sahiwal",
+          "Vehari"
+        ]
+      },
+      {
+        "name": "BS Cyber Security",
+        "group": "Computing",
+        "campuses": [
+          "Islamabad",
+          "Wah",
+          "Lahore",
+          "Attock"
+        ]
+      },
+      {
+        "name": "BS Data Science",
+        "group": "Computing",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Software Engineering",
+        "group": "Computing",
+        "campuses": [
+          "Islamabad",
+          "Abbottabad",
+          "Wah",
+          "Lahore",
+          "Attock",
+          "Sahiwal",
+          "Vehari"
+        ]
+      },
+      {
+        "name": "BS Accounting and Finance",
+        "group": "Business",
+        "campuses": [
+          "Islamabad",
+          "Lahore",
+          "Wah",
+          "Attock",
+          "Vehari"
+        ]
+      },
+      {
+        "name": "BS Business Administration",
+        "group": "Business",
+        "campuses": [
+          "Islamabad",
+          "Abbottabad",
+          "Wah",
+          "Lahore",
+          "Attock",
+          "Sahiwal",
+          "Vehari"
+        ]
+      },
+      {
+        "name": "BS Business Data Analytics",
+        "group": "Business",
+        "campuses": [
+          "Islamabad",
+          "Abbottabad",
+          "Attock",
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BS Auditing and Taxation",
+        "group": "Business",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Development Studies",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Abbottabad"
+        ]
+      },
+      {
+        "name": "BS Economics",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Islamabad",
+          "Abbottabad",
+          "Lahore",
+          "Vehari"
+        ]
+      },
+      {
+        "name": "BS Economics with Data Science",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Islamabad",
+          "Lahore",
+          "Vehari"
+        ]
+      },
+      {
+        "name": "BS English",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Islamabad",
+          "Abbottabad",
+          "Lahore",
+          "Attock",
+          "Sahiwal",
+          "Vehari"
+        ]
+      },
+      {
+        "name": "BS International Relations",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Media and Communication Studies",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Islamabad",
+          "Lahore",
+          "Vehari"
+        ]
+      },
+      {
+        "name": "BS Psychology",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Islamabad",
+          "Abbottabad",
+          "Lahore",
+          "Wah"
+        ]
+      },
+      {
+        "name": "Bachelor of Architecture",
+        "group": "Architecture & Design",
+        "campuses": [
+          "Islamabad",
+          "Lahore"
+        ]
+      },
+      {
+        "name": "Bachelor of Design",
+        "group": "Architecture & Design",
+        "campuses": [
+          "Islamabad",
+          "Lahore"
+        ]
+      },
+      {
+        "name": "Bachelor of Fine Arts",
+        "group": "Architecture & Design",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "Bachelor of Interior Design",
+        "group": "Architecture & Design",
+        "campuses": [
+          "Islamabad",
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BS Agriculture",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Sahiwal",
+          "Vehari"
+        ]
+      },
+      {
+        "name": "BS Biochemistry",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Sahiwal"
+        ]
+      },
+      {
+        "name": "BS Bioinformatics",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Islamabad",
+          "Sahiwal"
+        ]
+      },
+      {
+        "name": "BS Biosciences",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Biotechnology",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Abbottabad",
+          "Sahiwal",
+          "Vehari"
+        ]
+      },
+      {
+        "name": "BS Chemistry",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Islamabad",
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BS Electronics & Computing",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Islamabad",
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BS Environmental Sciences",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Abbottabad",
+          "Vehari"
+        ]
+      },
+      {
+        "name": "BS Food Sciences and Nutrition",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Sahiwal"
+        ]
+      },
+      {
+        "name": "BS Geology",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Abbottabad"
+        ]
+      },
+      {
+        "name": "BS Geophysics",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Abbottabad"
+        ]
+      },
+      {
+        "name": "BS Mathematics",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Islamabad",
+          "Abbottabad",
+          "Lahore",
+          "Attock",
+          "Sahiwal",
+          "Vehari"
+        ]
+      },
+      {
+        "name": "BS Mathematics with Data Science",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Islamabad",
+          "Abbottabad",
+          "Lahore",
+          "Attock",
+          "Sahiwal",
+          "Vehari"
+        ]
+      },
+      {
+        "name": "BS Medical Lab Technology",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Abbottabad"
+        ]
+      },
+      {
+        "name": "BS Microbiology",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Abbottabad",
+          "Sahiwal",
+          "Vehari"
+        ]
+      },
+      {
+        "name": "BS Physics",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Islamabad",
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BS Remote Sensing & GIS",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Islamabad"
+        ]
+      },
+      {
+        "name": "BS Statistics (Data Science)",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "Doctor of Pharmacy (Pharm-D)",
+        "group": "Natural & Applied Sciences",
+        "campuses": [
+          "Lahore",
+          "Abbottabad"
+        ]
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Need-Based Scholarship",
+        "type": "Internal",
+        "description": "For students with established genuine need, regardless of background. Applied through campus scholarship offices."
+      },
+      {
+        "name": "Qarz-e-Hasna",
+        "type": "Internal",
+        "description": "Interest-free loan for students facing financial hardship. Repayable after graduation."
+      },
+      {
+        "name": "Financial Support Programs (FSPs)",
+        "type": "Internal",
+        "description": "Various financial support categories including stipends and grants."
+      },
+      {
+        "name": "CUI Top Merit Scholarship",
+        "type": "Internal",
+        "description": "Merit-based scholarship for undergraduate program toppers."
+      },
+      {
+        "name": "PEEF",
+        "type": "External",
+        "description": "Punjab Educational Endowment Fund. Special Quota available for undergrads."
+      },
+      {
+        "name": "Al-Khidmat Foundation",
+        "type": "External",
+        "description": "Alkhidmat Academic Scholarship Program for Bachelor's students."
+      },
+      {
+        "name": "Workers Welfare Fund (WWF)",
+        "type": "External",
+        "description": "For children of factory/mill employees. Islamabad Campus."
+      },
+      {
+        "name": "HEC Scholarships",
+        "type": "External",
+        "description": "Higher Education Commission scholarships. Applied through HEC."
+      }
+    ],
+    "eligibility": [
+      {
+        "group": "Engineering",
+        "programs": [
+          "Electrical",
+          "Electrical (Electronics)",
+          "Computer",
+          "Chemical",
+          "Mechanical",
+          "Civil"
+        ],
+        "sscMin": "—",
+        "hsscMin": "60%",
+        "subjects": "Pre-Engineering (Physics, Math, Chem) OR DAE in relevant field OR ICS (Phys, Math, CS) with remedial Chemistry",
+        "entryTests": [
+          "NTS NAT-I (min 33% per PEC)"
+        ],
+        "weightage": {
+          "test": "50%",
+          "hssc": "40%",
+          "ssc": "10%"
+        }
+      },
+      {
+        "group": "Computing",
+        "programs": [
+          "CS",
+          "SE",
+          "DS",
+          "AI",
+          "Cyber Security"
+        ],
+        "sscMin": "—",
+        "hsscMin": "50%",
+        "subjects": "Math mandatory. Pre-Medical needs remedial Math within 2 semesters.",
+        "entryTests": [
+          "NTS NAT-I"
+        ],
+        "weightage": {
+          "test": "50%",
+          "hssc": "40%",
+          "ssc": "10%"
+        }
+      },
+      {
+        "group": "Business",
+        "programs": [
+          "BBA",
+          "A&F",
+          "BDA",
+          "Auditing & Taxation"
+        ],
+        "sscMin": "—",
+        "hsscMin": "50%",
+        "subjects": "Any stream",
+        "entryTests": [
+          "NTS NAT-I"
+        ],
+        "weightage": {
+          "test": "50%",
+          "hssc": "40%",
+          "ssc": "10%"
+        }
+      },
+      {
+        "group": "Natural & Applied Sciences",
+        "programs": [
+          "Chem",
+          "Math",
+          "Phys",
+          "Bio",
+          "Geology",
+          "Environ Sci",
+          "etc."
+        ],
+        "sscMin": "—",
+        "hsscMin": "50%",
+        "subjects": "Relevant science subjects",
+        "entryTests": [
+          "NTS NAT-I"
+        ],
+        "weightage": {
+          "test": "50%",
+          "hssc": "40%",
+          "ssc": "10%"
+        }
+      },
+      {
+        "group": "Pharmacy (Pharm-D)",
+        "programs": [
+          "Doctor of Pharmacy"
+        ],
+        "sscMin": "—",
+        "hsscMin": "60%",
+        "subjects": "Pre-Medical",
+        "entryTests": [
+          "NTS NAT-I"
+        ],
+        "weightage": {
+          "test": "50%",
+          "hssc": "40%",
+          "ssc": "10%"
+        }
+      },
+      {
+        "group": "Architecture & Design",
+        "programs": [
+          "B.Arch",
+          "B.Des",
+          "BFA",
+          "BID"
+        ],
+        "sscMin": "—",
+        "hsscMin": "60% (B.Arch) / 50% (others)",
+        "subjects": "Any stream (Math background preferred for B.Arch)",
+        "entryTests": [
+          "NTS NAT-I",
+          "Creative Aptitude Test (CAT)"
+        ],
+        "weightage": {
+          "note": "B.Arch: Academic 50% + CAT 40% + Interview 10%. B.Des/BFA: 30% academic + 70% CAT"
+        }
+      }
+    ],
+    "entryTest": "NTS NAT-I (min 33% for engineering per PEC policy)",
+    "about": {
+      "summary": "COMSATS University Islamabad is one of Pakistan's top-ranked public research universities, known for its strength in Mathematics, Chemistry, Computing and Engineering.",
+      "reputation": "Ranked #1 in Pakistan for Mathematics and Chemistry (QS 2025). #2 in Pakistan for Electrical Engineering, Computer Science, Biological Sciences, Chemical Engineering, Environmental Sciences, and Economics. 8 campuses across Pakistan with 36,000+ students.",
+      "bestFor": "Students seeking a strong research-driven education with a wide range of program choices — from engineering and computing to business, sciences and architecture — across multiple campuses.",
+      "strengths": [
+        "#1 in Pakistan for Mathematics and Chemistry (QS 2025)",
+        "8 campuses: Islamabad, Lahore, Abbottabad, Wah, Attock, Sahiwal, Vehari, Virtual",
+        "116+ degree programs, 36,000+ students, 1,935+ faculty",
+        "Strong industry linkages and research output (46 patents awarded)"
+      ]
+    },
+    "sources": {
+      "admissions": "https://admissions.comsats.edu.pk/Home/Index",
+      "programs": "https://admissions.comsats.edu.pk/Home/ProgramDetails#panel-undergrad",
+      "fees": "https://admissions.comsats.edu.pk/Content/files/Fee-Structure-Fall-2026%20(2).pdf",
+      "scholarships": "https://ww2.comsats.edu.pk/scholarships/",
+      "eligibility": "https://admissions.comsats.edu.pk/Home/EligibilityCriteria?pt=BS"
+    },
+    "changeHistory": [
+      {
+        "date": "2026-09-24",
+        "action": "Initial data population from official COMSATS website and prospectus",
+        "source": "manual"
+      }
+    ],
+    "heroImage": "/images/universities/comsats.webp"
+  },
+  {
+    "id": 4,
+    "name": "LUMS",
+    "fullName": "Lahore University of Management Sciences",
+    "slug": "lums",
+    "city": "Lahore",
+    "province": "Punjab",
+    "officialWebsite": "https://lums.edu.pk",
+    "applicationPortal": "https://admissions.lums.edu.pk",
+    "admission": {
+      "status": "not-announced",
+      "lastCycle": null,
+      "nextCycle": {
+        "year": 2027,
+        "published": false,
+        "applicationOpen": "2026-12-01",
+        "applicationClose": "2027-01-27",
+        "testWindow": "2027-02-15 (LCAT)",
+        "financialAidDeadline": "2027-02-28",
+        "expectedWindow": "Dec 2026 – Feb 2027",
+        "note": "Fall 2027 admissions opening soon. Dates shown are from LUMS' published calendar."
+      },
+      "applicationFee": "Please check the official LUMS page for current application fee",
+      "lastVerified": "2026-09-24",
+      "verificationStatus": "verified"
+    },
+    "fees": {
+      "note": "Fee information is not yet published on AdmitPak. Please check the official LUMS page for the latest tuition and charges.",
+      "externalLink": "https://admissions.lums.edu.pk",
+      "currency": "PKR"
+    },
+    "programs": [
+      {
+        "name": "BSc (Honours) Accounting and Finance",
+        "group": "Business",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BSc (Honours) Management Science",
+        "group": "Business",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BA (Honours) Comparative Literature and Creative Arts",
+        "group": "Humanities & Social Sciences",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BA (Honours) English",
+        "group": "Humanities & Social Sciences",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BA (Honours) History",
+        "group": "Humanities & Social Sciences",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BSc (Honours) Anthropology and Sociology",
+        "group": "Humanities & Social Sciences",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BSc (Honours) Economics",
+        "group": "Humanities & Social Sciences",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BSc (Honours) Economics and Mathematics (Joint Major)",
+        "group": "Humanities & Social Sciences",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BSc (Honours) Economics, Data and Computer Science (Joint Major)",
+        "group": "Humanities & Social Sciences",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BSc (Honours) Political Science",
+        "group": "Humanities & Social Sciences",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BSc (Honours) Politics and Economics",
+        "group": "Humanities & Social Sciences",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BSc (Honours) Psychology",
+        "group": "Humanities & Social Sciences",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BS Biology",
+        "group": "Science & Engineering",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BS Chemical Engineering",
+        "group": "Science & Engineering",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BS Chemistry",
+        "group": "Science & Engineering",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BS Computer Science",
+        "group": "Science & Engineering",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BS Economics and Mathematics (Joint Major)",
+        "group": "Science & Engineering",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BS Electrical Engineering",
+        "group": "Science & Engineering",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BS Mathematics",
+        "group": "Science & Engineering",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BS Physics",
+        "group": "Science & Engineering",
+        "campuses": [
+          "Lahore"
+        ]
+      },
+      {
+        "name": "BA-LL.B (Honours)",
+        "group": "Law",
+        "campuses": [
+          "Lahore"
+        ]
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "100 Undergraduate Merit Scholarships",
+        "type": "Internal",
+        "description": "Merit-based scholarships awarded to top-ranked undergraduate applicants."
+      },
+      {
+        "name": "LUMS Financial Aid",
+        "type": "Internal",
+        "description": "Combines loan and waiver, covering Tuition, Semester Registration fees and Lab charges. Assessed yearly on academic performance and financial need."
+      },
+      {
+        "name": "National Outreach Programme (NOP) Scholarship",
+        "type": "Internal",
+        "description": "Flagship initiative for talented, financially disadvantaged students from across Pakistan. Full support: Admission, Tuition, Semester Registration, Lab charges, Accommodation, Meals and Stipends."
+      },
+      {
+        "name": "LUMS - PHEC Honhaar Scholarship",
+        "type": "External",
+        "description": "Partnership with Punjab Higher Education Commission for deserving students."
+      },
+      {
+        "name": "LUMS - Sekha Scholarship",
+        "type": "External",
+        "description": "Donor-funded scholarship for students demonstrating need and merit."
+      },
+      {
+        "name": "PEEF",
+        "type": "External",
+        "description": "Punjab Educational Endowment Fund. Applied through LUMS financial aid office."
+      },
+      {
+        "name": "Shahid Hussain Foundation Scholarship",
+        "type": "External",
+        "description": "For international students pursuing undergraduate education at LUMS."
+      }
+    ],
+    "eligibility": [
+      {
+        "group": "All Undergraduate Programs",
+        "programs": [
+          "All Schools"
+        ],
+        "sscMin": "Please check official LUMS page",
+        "hsscMin": "Please check official LUMS page",
+        "subjects": "Varies by school — check official requirements",
+        "entryTests": [
+          "LUMS Common Admission Test (LCAT)",
+          "SAT"
+        ],
+        "weightage": null,
+        "note": "LUMS evaluates candidates holistically — academics, test scores, and application. Check the official admissions page for detailed criteria."
+      }
+    ],
+    "entryTest": "LUMS Common Admission Test (LCAT) OR SAT",
+    "about": {
+      "summary": "LUMS is one of Pakistan's most prestigious private universities, known for excellence in Business, Economics, Law, Computer Science and Engineering.",
+      "reputation": "Established in 1985 as a not-for-profit university. Over 40 years of academic excellence, 22,794+ alumni, and one of the largest need-based financial aid programs in Pakistan (Rs. 13.3+ Billion disbursed since inception).",
+      "bestFor": "High-achieving students seeking a world-class, liberal-arts-style education with strong financial aid support — particularly those interested in Business, Economics, Law or Engineering.",
+      "strengths": [
+        "Ranked among Pakistan's top universities for Business, Economics and Law",
+        "Rs. 13.3 Billion disbursed as financial assistance since inception",
+        "1 in 4 students supported by financial aid",
+        "100 Merit Scholarships for top undergraduate applicants",
+        "National Outreach Programme (NOP) — full scholarships for underprivileged students"
+      ]
+    },
+    "sources": {
+      "admissions": "https://admissions.lums.edu.pk",
+      "programs": "https://lums.edu.pk/programme-finder",
+      "fees": "https://admissions.lums.edu.pk",
+      "scholarships": "https://financial-aid.lums.edu.pk/financial-aid-options-fa",
+      "eligibility": "https://admissions.lums.edu.pk"
+    },
+    "changeHistory": [
+      {
+        "date": "2026-09-24",
+        "action": "Initial data population from official LUMS website",
+        "source": "manual"
+      }
+    ],
+    "heroImage": "/images/universities/lums.webp"
+  },
+  {
+    "id": 5,
+    "name": "UET Lahore",
+    "fullName": "University of Engineering and Technology, Lahore",
+    "slug": "uet-lahore",
+    "city": "Lahore",
+    "province": "Punjab",
+    "officialWebsite": "https://uet.edu.pk",
+    "applicationPortal": "https://admission.uet.edu.pk",
+    "admission": {
+      "status": "closed",
+      "lastCycle": {
+        "year": 2026,
+        "applicationOpen": "2025-09-07",
+        "applicationClose": "2026-07-16",
+        "meritListsStart": "2026-08",
+        "walkInAdmissions": "2026-09",
+        "classesStart": "2026-09",
+        "note": "Main applications closed 16 Jul 2026. Walk-in admissions for remaining seats currently ongoing (2nd merit list as of Sep 2026)."
+      },
+      "nextCycle": {
+        "year": 2027,
+        "published": false,
+        "expectedWindow": "Sep 2027 (Fall intake)",
+        "note": "Fall 2027 applications expected to open around Sep 2027."
+      },
+      "applicationFee": "Rs. 3,000 (new candidates) / Rs. 1,500 (existing candidates for preference change / walk-in)",
+      "lastVerified": "2026-09-24",
+      "verificationStatus": "verified"
+    },
+    "fees": {
+      "note": "UET has subsidized (A1) and partially subsidized (A2) fee categories based on domicile and income.",
+      "admissionFee": {
+        "subsidizedA1": "Rs. 54,050 (one-time)",
+        "partiallySubsidizedA2": "Rs. 74,040 (one-time)"
+      },
+      "tuitionPerSemester": {
+        "subsidizedA1": "Rs. 56,290",
+        "partiallySubsidizedA2": "Rs. 85,250"
+      },
+      "examinationFeePerSemester": {
+        "subsidizedA1": "Rs. 1,474",
+        "partiallySubsidizedA2": "Rs. 1,572"
+      },
+      "facilitiesCharges": "Rs. 7,220 (day scholars) / Rs. 3,610 (hostel) per semester",
+      "degreeFee": "Rs. 10,000 (payable in 8th semester)",
+      "total8Semesters": {
+        "subsidizedA1": "Rs. 713,920",
+        "partiallySubsidizedA2": "Rs. 1,085,430"
+      },
+      "hostelPerSemester": {
+        "dormitory": "Rs. 13,040 (A1) / Rs. 17,750 (A2)",
+        "cubicle": "Rs. 16,260 (A1) / Rs. 24,170 (A2)",
+        "hostelAdmissionFee": "Rs. 2,810 (one-time)"
+      },
+      "currency": "PKR",
+      "note2": "Fees for Fall 2026 session. Subject to revision."
+    },
+    "programs": [
+      {
+        "name": "Architectural Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Automotive Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Biomedical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Narowal",
+          "New Campus (KSK)"
+        ]
+      },
+      {
+        "name": "Chemical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main (Lahore)",
+          "Faisalabad",
+          "New Campus (KSK)"
+        ]
+      },
+      {
+        "name": "Civil Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main (Lahore)",
+          "Narowal"
+        ]
+      },
+      {
+        "name": "Computer Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Electrical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main (Lahore)",
+          "Faisalabad",
+          "Gujranwala",
+          "Narowal",
+          "New Campus (KSK)"
+        ]
+      },
+      {
+        "name": "Environmental Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Geological Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Industrial & Manufacturing Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Mechanical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main (Lahore)",
+          "Gujranwala",
+          "Narowal",
+          "New Campus (KSK)"
+        ]
+      },
+      {
+        "name": "Mechatronics & Control Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main (Lahore)",
+          "Faisalabad"
+        ]
+      },
+      {
+        "name": "Metallurgical & Materials Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Mining Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Petroleum & Gas Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Polymer Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Textile Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Faisalabad"
+        ]
+      },
+      {
+        "name": "Transportation Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Artificial Intelligence",
+        "group": "Computing",
+        "campuses": [
+          "Main (Lahore)",
+          "New Campus (KSK)"
+        ]
+      },
+      {
+        "name": "Business Data Analytics",
+        "group": "Computing",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Computer Engineering (NCEAC)",
+        "group": "Computing",
+        "campuses": [
+          "Faisalabad",
+          "Gujranwala",
+          "Narowal",
+          "New Campus (KSK)"
+        ]
+      },
+      {
+        "name": "Computer Science",
+        "group": "Computing",
+        "campuses": [
+          "Main (Lahore)",
+          "Faisalabad",
+          "Gujranwala",
+          "Narowal",
+          "New Campus (KSK)"
+        ]
+      },
+      {
+        "name": "Cybersecurity",
+        "group": "Computing",
+        "campuses": [
+          "Main (Lahore)",
+          "Faisalabad",
+          "New Campus (KSK)"
+        ]
+      },
+      {
+        "name": "Data Science",
+        "group": "Computing",
+        "campuses": [
+          "Main (Lahore)",
+          "Faisalabad",
+          "New Campus (KSK)"
+        ]
+      },
+      {
+        "name": "Robotics and Intelligent Systems",
+        "group": "Computing",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Software Engineering",
+        "group": "Computing",
+        "campuses": [
+          "Main (Lahore)",
+          "New Campus (KSK)"
+        ]
+      },
+      {
+        "name": "Bachelor of Business Administration (BBA)",
+        "group": "Sciences",
+        "campuses": [
+          "Main (Lahore)",
+          "New Campus (KSK)"
+        ]
+      },
+      {
+        "name": "Bachelor of Business Information Technology",
+        "group": "Sciences",
+        "campuses": [
+          "Main (Lahore)",
+          "Narowal",
+          "New Campus (KSK)"
+        ]
+      },
+      {
+        "name": "Business Analytics",
+        "group": "Sciences",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Chemistry",
+        "group": "Sciences",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Energy Systems and Management",
+        "group": "Sciences",
+        "campuses": [
+          "New Campus (KSK)"
+        ]
+      },
+      {
+        "name": "English Language and Literature",
+        "group": "Sciences",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Environmental Science",
+        "group": "Sciences",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Food Science & Technology",
+        "group": "Sciences",
+        "campuses": [
+          "New Campus (KSK)"
+        ]
+      },
+      {
+        "name": "Industrial Chemistry",
+        "group": "Sciences",
+        "campuses": [
+          "Main (Lahore)",
+          "Faisalabad"
+        ]
+      },
+      {
+        "name": "Islamic Studies (Specialization in Computer Technology)",
+        "group": "Sciences",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Logistics and Supply Chain Management",
+        "group": "Sciences",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Materials Science",
+        "group": "Sciences",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Mathematics",
+        "group": "Sciences",
+        "campuses": [
+          "Main (Lahore)",
+          "New Campus (KSK)"
+        ]
+      },
+      {
+        "name": "Physics",
+        "group": "Sciences",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Remote Sensing and GIS",
+        "group": "Sciences",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Architecture",
+        "group": "Architecture",
+        "campuses": [
+          "Main (Lahore)",
+          "Narowal"
+        ]
+      },
+      {
+        "name": "City & Regional Planning",
+        "group": "Architecture",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Interior Design",
+        "group": "Architecture",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      },
+      {
+        "name": "Product & Industrial Design",
+        "group": "Architecture",
+        "campuses": [
+          "Main (Lahore)"
+        ]
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Need-Based Financial Aid",
+        "type": "Internal",
+        "description": "UET provides need-based scholarships to deserving students. In FY 2025-26, UET awarded Rs. 1.45 Billion to 10,508 students on need and merit basis."
+      },
+      {
+        "name": "Merit-Based Scholarships",
+        "type": "Internal",
+        "description": "Awarded to top-performing students based on academic merit."
+      },
+      {
+        "name": "PEEF",
+        "type": "External",
+        "description": "Punjab Educational Endowment Fund for talented students from Punjab."
+      },
+      {
+        "name": "HEC Scholarships",
+        "type": "External",
+        "description": "Higher Education Commission scholarships for deserving students."
+      },
+      {
+        "name": "External Donor Scholarships",
+        "type": "External",
+        "description": "Various donor-funded scholarships available. Please check the official UET page for details."
+      }
+    ],
+    "eligibility": [
+      {
+        "group": "Engineering",
+        "programs": [
+          "All BS/BE Engineering programs"
+        ],
+        "sscMin": "Varies by program",
+        "hsscMin": "60%",
+        "subjects": "Pre-Engineering (Physics, Math, Chemistry) — required subjects vary by program",
+        "entryTests": [
+          "ECAT (Engineering College Admission Test) — compulsory"
+        ],
+        "weightage": {
+          "matric": "17%",
+          "inter": "50%",
+          "ecat": "33%"
+        }
+      },
+      {
+        "group": "Computing",
+        "programs": [
+          "CS",
+          "SE",
+          "AI",
+          "Cyber Security",
+          "Data Science",
+          "etc."
+        ],
+        "sscMin": "Varies by program",
+        "hsscMin": "50%",
+        "subjects": "Pre-Engineering or ICS (with Math) — varies by program",
+        "entryTests": [
+          "ECAT — compulsory for Computing programs"
+        ],
+        "weightage": {
+          "matric": "17%",
+          "inter": "50%",
+          "ecat": "33%"
+        }
+      },
+      {
+        "group": "Sciences",
+        "programs": [
+          "BBA",
+          "Business Analytics",
+          "Chemistry",
+          "Math",
+          "Physics",
+          "etc."
+        ],
+        "sscMin": "Varies",
+        "hsscMin": "50%",
+        "subjects": "Subject-specific requirements vary by program",
+        "entryTests": [
+          "No admission test required for Sciences programs"
+        ],
+        "weightage": {
+          "matric": "—",
+          "inter": "—",
+          "ecat": "Not applicable"
+        }
+      },
+      {
+        "group": "Architecture",
+        "programs": [
+          "Architecture",
+          "Interior Design",
+          "Product & Industrial Design",
+          "City & Regional Planning"
+        ],
+        "sscMin": "Varies",
+        "hsscMin": "50%",
+        "subjects": "Pre-Engineering or equivalent with Math — check official requirements",
+        "entryTests": [
+          "Check official UET page — may require aptitude test"
+        ],
+        "weightage": null
+      }
+    ],
+    "entryTest": "ECAT (Engineering College Admission Test) — compulsory for Engineering & Computing programs",
+    "about": {
+      "summary": "UET Lahore is Pakistan's oldest and one of its most prestigious engineering universities, with over 100 years of legacy in engineering and technology education.",
+      "reputation": "Established in 1921, UET is ranked #201 in QS World Rankings 2026. 21,000+ students, 435+ PhD faculty, 75+ undergraduate programs, and 50,000+ alumni worldwide.",
+      "bestFor": "Students seeking a strong engineering or technology career from Pakistan's most established engineering institution, with multiple campuses across Punjab.",
+      "strengths": [
+        "104+ years of engineering excellence (est. 1921)",
+        "Ranked #201 in QS World Ranking 2026",
+        "435+ PhD faculty members",
+        "7,555+ research publications, 35 patents",
+        "Rs. 1.45 Billion awarded as scholarships in FY 2025-26",
+        "Multiple campuses: Main (Lahore), KSK, Narowal, Faisalabad, Gujranwala"
+      ]
+    },
+    "sources": {
+      "admissions": "https://admission.uet.edu.pk/",
+      "programs": "https://admission.uet.edu.pk/program/1",
+      "fees": "https://admission.uet.edu.pk/program/1",
+      "scholarships": "https://admission.uet.edu.pk/news/1",
+      "eligibility": "https://admission.uet.edu.pk/program/1"
+    },
+    "changeHistory": [
+      {
+        "date": "2026-09-24",
+        "action": "Initial data population from official UET website",
+        "source": "manual"
+      }
+    ],
+    "heroImage": "/images/universities/uet.webp"
+  }
+]

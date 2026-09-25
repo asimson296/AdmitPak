@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Environment (contains secrets!)
+.env
+.env.local
+.env.production
+
+# User data (contains emails, hashed passwords, feedback)
+data/users.json
+data/feedback/
+data/feedback.json
+data/feedback.json.bak
+data/source-snapshots/*.json
+!data/source-snapshots/README.md
+data/change-reports/*.json
+!data/change-reports/README.md
+data/verification/
+
+# Backups
+public.backup-before-rebrand/
+public.backup-before-admitpak/
+image-backups/
+*.backup.js
+*.backup.html
+*.backup.json
+*.backup-*.js
+*.backup-*.json
+
+# OS / editor
+.DS_Store
+*.swp
+*.log
+EOF

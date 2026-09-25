@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Universities in Pakistan — AdmitPak</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container nav-container">
+
+            <a href="/" class="logo">
+                Admit<span>Pak</span>
+            </a>
+
+            <nav class="main-nav">
+                <a href="/">Home</a>
+                <a href="/universities.html">Universities</a>
+                <a href="/#find">Find a University</a>
+                <a href="/#saved">Saved</a>
+                <a href="/#about">About</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- Page Hero -->
+        <section class="universities-page-hero">
+            <div class="container">
+
+                <p class="eyebrow">
+                    EXPLORE
+                </p>
+
+                <h1>
+                    Universities in Pakistan
+                </h1>
+
+                <p>
+                    Search and explore universities available on AdmitPak.
+                    Select a university to view its admission information,
+                    programs, fees and official links.
+                </p>
+
+                <!-- Search -->
+                <div class="university-search">
+
+                    <span class="search-icon">⌕</span>
+
+                    <input
+                        type="search"
+                        id="university-search"
+                        placeholder="Search university by name..."
+                        autocomplete="off"
+                    >
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Universities List -->
+        <section class="universities-list-section">
+
+            <div class="container">
+
+                <div class="universities-list-header">
+
+                    <div>
+                        <p class="eyebrow">
+                            UNIVERSITIES
+                        </p>
+
+                        <h2>
+                            Explore universities
+                        </h2>
+                    </div>
+
+                    <span id="university-count">
+                        0 universities
+                    </span>
+
+                </div>
+
+                <div class="universities-toolbar">
+
+                    <div class="filter-chips" id="status-filters">
+                        <button type="button" class="chip active" data-status="all">All</button>
+                        <button type="button" class="chip" data-status="open">Open</button>
+                        <button type="button" class="chip" data-status="closed">Closed</button>
+                        <button type="button" class="chip" data-status="not-announced">Not Announced</button>
+                    </div>
+
+                    <div class="toolbar-right">
+                        <label class="sort-label">
+                            Sort:
+                            <select id="sort-by">
+                                <option value="name">Name (A → Z)</option>
+                                <option value="programs">Most Programs</option>
+                                <option value="status">Status</option>
+                            </select>
+                        </label>
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="universities-page-list"
+                    class="universities-page-grid"
+                >
+
+                    <p class="loading">
+                        Loading universities...
+                    </p>
+
+                </div>
+
+
+                <div
+                    id="no-universities"
+                    class="no-universities"
+                    hidden
+                >
+
+                    <h3>
+                        No universities found
+                    </h3>
+
+                    <p>
+                        Try searching with a different university name
+                        or keyword.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <div>
+                <a href="/" class="logo">
+                    Admit<span>Pak</span>
+                </a>
+
+                <p>
+                    Plan smarter. Apply with confidence.
+                </p>
+            </div>
+
+            <p>
+                <a href="/privacy.html" style="color:inherit;">Privacy</a> · <a href="/terms.html" style="color:inherit;">Terms</a> · © 2026 AdmitPak
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="universities.js"></script>
+
+    <script src="tracker.js"></script>
+    <script src="animations.js"></script>
+
+<script src="header.js"></script>
+<script src="feedback.js"></script>
+</body>
+</html>

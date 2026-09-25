@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>University Details — AdmitPak</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container nav-container">
+
+            <a href="/" class="logo">
+                Admit<span>Pak</span>
+            </a>
+
+            <nav class="main-nav">
+                <a href="/">Home</a>
+                <a href="/#universities">Universities</a>
+                <a href="/#find">Find a University</a>
+                <a href="/#saved">Saved</a>
+                <a href="/#about">About</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- Breadcrumb -->
+        <section class="breadcrumb-section">
+            <div class="container">
+
+                <a href="/">Home</a>
+                <span>/</span>
+                <a href="/#universities">Universities</a>
+                <span>/</span>
+                <strong data-university-name>University Details</strong>
+
+            </div>
+        </section>
+
+
+        <!-- University Hero -->
+        <section class="university-hero">
+            <div class="container">
+
+                <div class="university-hero-content">
+
+                    <div class="university-logo-placeholder">
+                        U
+                    </div>
+
+                    <div class="university-hero-info">
+
+                        <p class="eyebrow">
+                            UNIVERSITY PROFILE
+                        </p>
+
+                        <h1>
+                            <span data-university-name>University Name</span>
+                        </h1>
+
+                        <p class="university-location-large">
+                            📍 <span data-university-location>City, Pakistan</span>
+                        </p>
+
+                        <p class="university-description" data-university-intro>
+                            A short introduction about this university will appear here.
+                        </p>
+
+                        <div class="university-hero-actions">
+
+                            <a
+                                href="#application"
+                                class="btn btn-primary"
+                            >
+                                View Admissions
+                            </a>
+
+                            <button
+                                class="btn btn-secondary"
+                                type="button"
+                                data-track-university
+                            >
+                                ☆ Track University
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Quick Information -->
+        <section class="quick-info-section">
+            <div class="container">
+
+                <div class="quick-info-grid">
+
+                    <div class="quick-info-card">
+                        <span>Admission Status</span>
+                        <strong class="status-placeholder">
+                            <span data-admission-status>Not yet verified</span>
+                        </strong>
+                    </div>
+
+                    <div class="quick-info-card">
+                        <span>Application Deadline</span>
+                        <strong>
+                            <span data-deadline>Not yet verified</span>
+                        </strong>
+                    </div>
+
+                    <div class="quick-info-card">
+                        <span>Application Fee</span>
+                        <strong>
+                            <span data-application-fee>Not yet verified</span>
+                        </strong>
+                    </div>
+
+                    <div class="quick-info-card">
+                        <span>Location</span>
+                        <strong>
+                            Pakistan
+                        </strong>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Main University Information -->
+        <section class="university-details-section">
+            <div class="container">
+
+                <div class="details-layout">
+
+                    <!-- Main Content -->
+                    <div class="details-main">
+
+                        <section class="detail-panel">
+
+                            <p class="eyebrow">
+                                ABOUT
+                            </p>
+
+                            <h2>
+                                About this university
+                            </h2>
+
+                            <div data-about-container class="about-container">
+                                <p class="loading">Loading university overview...</p>
+                            </div>
+
+                        </section>
+
+
+                        <section class="detail-panel">
+
+                            <p class="eyebrow">
+                                PROGRAMS
+                            </p>
+
+                            <h2>
+                                Programs & Majors
+                            </h2>
+
+                            <div data-programs-container class="programs-container">
+                                <p class="loading">Loading programs...</p>
+                            </div>
+
+                        </section>
+
+
+                        <section class="detail-panel">
+
+                            <p class="eyebrow">
+                                FEES
+                            </p>
+
+                            <h2>
+                                Tuition & Fees
+                            </h2>
+
+                            <div data-fees-container class="fees-container">
+                                <p class="loading">Loading fees...</p>
+                            </div>
+
+                        </section>
+
+
+                        <section class="detail-panel">
+
+                            <p class="eyebrow">
+                                SCHOLARSHIPS
+                            </p>
+
+                            <h2>
+                                Scholarships & Financial Aid
+                            </h2>
+
+                            <div data-scholarships-container class="scholarships-container">
+                                <p class="loading">Loading scholarships...</p>
+                            </div>
+
+                        </section>
+
+
+                        <section
+                            class="detail-panel"
+                            id="application"
+                        >
+
+                            <p class="eyebrow">
+                                ADMISSIONS
+                            </p>
+
+                            <h2>
+                                Eligibility Criteria
+                            </h2>
+
+                            <div data-eligibility-container class="eligibility-container">
+                                <p class="loading">Loading eligibility...</p>
+                            </div>
+
+                        </section>
+
+                    </div>
+
+
+                    <!-- Sidebar -->
+                    <aside class="details-sidebar">
+
+                        <div class="sidebar-card">
+
+                            <p class="eyebrow">
+                                APPLY
+                            </p>
+
+                            <h3>
+                                Ready to apply?
+                            </h3>
+
+                            <p>
+                                When applications open, use the official
+                                university application portal.
+                            </p>
+
+                            <a
+                                href="#"
+                                data-application-portal
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="btn btn-primary sidebar-button"
+                            >
+                                Apply on Official Portal
+                            </a>
+
+                        </div>
+
+
+                        <div class="sidebar-card">
+
+                            <p class="eyebrow">
+                                OFFICIAL SOURCES
+                            </p>
+
+                            <h3>
+                                University Links
+                            </h3>
+
+                            <a href="#"
+                                data-official-website
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Official Website →
+                            </a>
+
+                            <a href="#"
+                                data-application-portal
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Admissions Portal →
+                            </a>
+
+                            <div data-sources-container class="sources-container"></div>
+
+                        </div>
+
+
+                        <div class="sidebar-card">
+
+                            <p class="eyebrow">
+                                ADMITPAK
+                            </p>
+
+                            <h3>
+                                Track this university
+                            </h3>
+
+                            <p>
+                                Save this university and get reminders
+                                about important admission dates.
+                            </p>
+
+                            <button
+                                class="btn btn-secondary sidebar-button"
+                                type="button"
+                                data-track-university
+                            >
+                                ☆ Track University
+                            </button>
+
+                        </div>
+
+
+                        <div class="sidebar-card share-card">
+
+                            <p class="eyebrow">
+                                SHARE
+                            </p>
+
+                            <h3>
+                                Help a friend
+                            </h3>
+
+                            <p>
+                                Know someone applying to this university?
+                                Share it with them.
+                            </p>
+
+                            <div class="share-buttons">
+
+                                <a href="#" class="share-btn share-whatsapp" data-share="whatsapp" target="_blank" rel="noopener noreferrer">
+                                    <span>💬</span> WhatsApp
+                                </a>
+
+                                <a href="#" class="share-btn share-facebook" data-share="facebook" target="_blank" rel="noopener noreferrer">
+                                    <span>📘</span> Facebook
+                                </a>
+
+                                <a href="#" class="share-btn share-twitter" data-share="twitter" target="_blank" rel="noopener noreferrer">
+                                    <span>𝕏</span> Twitter / X
+                                </a>
+
+                                <button type="button" class="share-btn share-copy" data-share="copy">
+                                    <span>🔗</span> Copy Link
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </aside>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <div>
+                <a href="/" class="logo">
+                    Admit<span>Pak</span>
+                </a>
+
+                <p>
+                    Plan smarter. Apply with confidence.
+                </p>
+            </div>
+
+            <p>
+                <a href="/privacy.html" style="color:inherit;">Privacy</a> · <a href="/terms.html" style="color:inherit;">Terms</a> · © 2026 AdmitPak
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="tracker.js"></script>
+    <script src="animations.js"></script>
+
+    <script src="university.js"></script>
+
+<script src="header.js"></script>
+<script src="feedback.js"></script>
+</body>
+</html>

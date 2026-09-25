@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdmitPak — Find Your University</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="/" class="logo">Admit<span>Pak</span></a>
+
+            <nav class="main-nav">
+                <a href="/">Home</a>
+                <a href="#universities">Universities</a>
+                <a href="#find">Find a University</a>
+                <a href="#saved">Saved</a>
+                <a href="#about">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div class="container hero-content">
+                <p class="eyebrow">PAKISTAN UNIVERSITY ADMISSIONS</p>
+
+                <h1>Find the right university.<br><span>Plan your admission.</span></h1>
+
+                <p class="hero-text">
+                    Explore universities, admission deadlines, programs,
+                    fees, scholarships and official application links — all in one place.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#universities" class="btn btn-primary">
+                        Explore Universities
+                    </a>
+
+                    <a href="#find" class="btn btn-secondary">
+                        Find Your University
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="universities" class="universities-section">
+    <div class="container">
+        <div class="universities-cta">
+            <div class="universities-cta-content">
+                <p class="eyebrow">EXPLORE</p>
+
+                <h2>Universities in Pakistan</h2>
+
+                <p>
+                    Explore universities, compare admission information,
+                    discover programs, and find official application links
+                    — all in one place.
+                </p>
+
+                <a href="/universities.html" class="btn btn-primary">
+                    Explore Universities <span>→</span>
+                </a>
+            </div>
+
+            <div class="universities-cta-visual">
+                <div class="cta-circle">
+                    <span>05</span>
+                    <small>Universities</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="find" class="find-section">
+            <div class="container">
+                <div class="find-card">
+                    <p class="eyebrow">COMING NEXT</p>
+
+                    <h2>Find a university that fits you.</h2>
+
+                    <p>
+                        Tell AdmitPak about your academic background,
+                        preferred major and expected percentage.
+                        We will help you discover suitable universities.
+                    </p>
+
+                    <button class="btn btn-primary" type="button">
+                        Start Finding
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="saved" class="saved-section">
+            <div class="container">
+                <div class="saved-header">
+                    <div>
+                        <p class="eyebrow">YOUR SHORTLIST</p>
+                        <h2>Universities you're tracking</h2>
+                        <p class="saved-subtitle">
+                            Universities you track will appear here. We'll notify you
+                            before their application deadlines.
+                        </p>
+                    </div>
+                    <span id="saved-count" class="saved-count">0 tracked</span>
+                </div>
+
+                <div id="saved-list" class="saved-grid"></div>
+
+                <div id="saved-empty" class="saved-empty">
+                    <div class="saved-empty-icon">☆</div>
+                    <h3>You haven't tracked any universities yet</h3>
+                    <p>Browse universities and click <strong>☆ Track University</strong> to add them here.</p>
+                    <a href="/universities.html" class="btn btn-primary">Explore Universities</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="info-section">
+            <div class="container">
+                <p class="eyebrow">ABOUT ADMITPAK</p>
+                <h2>One route from search to application.</h2>
+
+                <p>
+                    AdmitPak is designed to make university research
+                    simpler by bringing important admission information
+                    together while keeping students connected to official
+                    university sources.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div>
+                <a href="/" class="logo">Admit<span>Pak</span></a>
+                <p>Plan smarter. Apply with confidence.</p>
+            </div>
+
+            <p><a href="/privacy.html" style="color:inherit;">Privacy</a> · <a href="/terms.html" style="color:inherit;">Terms</a> · © 2026 AdmitPak</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+
+    <script src="tracker.js"></script>
+    <script src="saved.js"></script>
+    <script src="animations.js"></script>
+
+<script src="header.js"></script>
+<script src="feedback.js"></script>
+</body>
+</html>
