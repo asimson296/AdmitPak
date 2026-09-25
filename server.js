@@ -5,6 +5,7 @@ const fs = require("fs");
 const cookieParser = require("cookie-parser");
 
 const auth = require("./auth");
+const { connectToMongoDB, Feedback } = require("./db");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -43,7 +44,7 @@ app.get("/api/universities", (req, res) => {
 // AUTH MIDDLEWARE
 // ============================================
 
-function requireAuth(req, res, next) {
+async function requireAuth(req, res, next) {
     const token = req.cookies[auth.COOKIE_NAME];
     if (!token) return res.status(401).json({ error: "NOT_LOGGED_IN" });
 
@@ -52,7 +53,7 @@ function requireAuth(req, res, next) {
         res.clearCookie(auth.COOKIE_NAME);
         return res.status(401).json({ error: "SESSION_EXPIRED" });
     }
-    const user = auth.findUserById(payload.userId);
+    const user = await auth.findUserById(payload.userId);
     if (!user) {
         res.clearCookie(auth.COOKIE_NAME);
         return res.status(401).json({ error: "USER_NOT_FOUND" });
@@ -61,12 +62,12 @@ function requireAuth(req, res, next) {
     next();
 }
 
-function optionalAuth(req, _res, next) {
+async function optionalAuth(req, _res, next) {
     const token = req.cookies[auth.COOKIE_NAME];
     if (token) {
         const payload = auth.verifyToken(token);
         if (payload) {
-            const user = auth.findUserById(payload.userId);
+            const user = await auth.findUserById(payload.userId);
             if (user) req.user = user;
         }
     }
@@ -103,7 +104,7 @@ function rateLimitAuth(limitPerMinute = 10) {
 // AUTH ROUTES
 // ============================================
 
-app.post("/api/signup", rateLimitAuth(5), (req, res) => {
+app.post("/api/signup", rateLimitAuth(5), async (req, res) => {
     try {
         const { email, password, name } = req.body || {};
 
@@ -117,7 +118,7 @@ app.post("/api/signup", rateLimitAuth(5), (req, res) => {
             return res.status(400).json({ error: "Password must be at least 6 characters." });
         }
 
-        const user = auth.createUser({ email, password, name });
+        const user = await auth.createUser({ email, password, name });
         const token = auth.issueToken(user);
 
         res.cookie(auth.COOKIE_NAME, token, {
@@ -136,7 +137,7 @@ app.post("/api/signup", rateLimitAuth(5), (req, res) => {
     }
 });
 
-app.post("/api/login", rateLimitAuth(10), (req, res) => {
+app.post("/api/login", rateLimitAuth(10), async (req, res) => {
     try {
         const { email, password } = req.body || {};
 
@@ -144,7 +145,7 @@ app.post("/api/login", rateLimitAuth(10), (req, res) => {
             return res.status(400).json({ error: "Email and password are required." });
         }
 
-        const user = auth.findUserByEmail(email);
+        const user = await auth.findUserByEmail(email);
         if (!user || !auth.verifyPassword(password, user.passwordHash)) {
             return res.status(401).json({ error: "Invalid email or password." });
         }
@@ -181,38 +182,22 @@ app.get("/api/tracked", requireAuth, (req, res) => {
     res.json({ tracked: req.user.tracked || [] });
 });
 
-app.post("/api/track/:slug", requireAuth, (req, res) => {
+app.post("/api/track/:slug", requireAuth, async (req, res) => {
     const slug = String(req.params.slug || "").trim();
     if (!slug) return res.status(400).json({ error: "Missing slug" });
 
-    const user = auth.findUserById(req.user.id);
-    if (!user) return res.status(401).json({ error: "USER_NOT_FOUND" });
+    const updated = await auth.addTracked(req.user._id || req.user.id, slug);
+    if (!updated) return res.status(401).json({ error: "USER_NOT_FOUND" });
 
-    if (!Array.isArray(user.tracked)) user.tracked = [];
-    if (!user.tracked.includes(slug)) user.tracked.push(slug);
-
-    const users = auth.readUsers();
-    const idx = users.findIndex(u => u.id === user.id);
-    users[idx] = user;
-    auth.writeUsers(users);
-
-    res.json({ tracked: user.tracked });
+    res.json({ tracked: updated.tracked || [] });
 });
 
-app.delete("/api/track/:slug", requireAuth, (req, res) => {
+app.delete("/api/track/:slug", requireAuth, async (req, res) => {
     const slug = String(req.params.slug || "").trim();
-    const user = auth.findUserById(req.user.id);
-    if (!user) return res.status(401).json({ error: "USER_NOT_FOUND" });
+    const updated = await auth.removeTracked(req.user._id || req.user.id, slug);
+    if (!updated) return res.status(401).json({ error: "USER_NOT_FOUND" });
 
-    if (!Array.isArray(user.tracked)) user.tracked = [];
-    user.tracked = user.tracked.filter(s => s !== slug);
-
-    const users = auth.readUsers();
-    const idx = users.findIndex(u => u.id === user.id);
-    users[idx] = user;
-    auth.writeUsers(users);
-
-    res.json({ tracked: user.tracked });
+    res.json({ tracked: updated.tracked || [] });
 });
 
 // ============================================
@@ -257,7 +242,7 @@ function rateLimited(ip) {
     return false;
 }
 
-app.post("/api/feedback", (req, res) => {
+app.post("/api/feedback", async (req, res) => {
     try {
         const ip = req.ip || req.connection?.remoteAddress || "unknown";
 
@@ -275,7 +260,7 @@ app.post("/api/feedback", (req, res) => {
         }
 
         const entry = {
-            id: "fb_" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
+            _id: "fb_" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
             category: category || "general",
             message: String(message).trim(),
             email: email ? String(email).trim().toLowerCase() : null,
@@ -286,24 +271,32 @@ app.post("/api/feedback", (req, res) => {
             status: "new"
         };
 
-        const filePath = saveFeedbackEntry(entry);
+        await Feedback.create(entry);
 
-        console.log("📬 New feedback saved:", filePath);
+        console.log("📬 New feedback saved:", entry._id);
         console.log("   Category:", entry.category);
         console.log("   Message:", entry.message.slice(0, 60));
 
-        res.json({ ok: true, id: entry.id });
+        res.json({ ok: true, id: entry._id });
     } catch (error) {
         console.error("Feedback error:", error);
         res.status(500).json({ error: "Could not save feedback. Please try again." });
     }
 });
 
-app.get("/api/feedback/count", requireAuth, (req, res) => {
-    res.json({ count: readFeedback().filter(f => f.status === "new").length });
+app.get("/api/feedback/count", requireAuth, async (req, res) => {
+    const count = await Feedback.countDocuments({ status: "new" });
+    res.json({ count });
 });
 
 // Start server
-app.listen(PORT, () => {
-    console.log(`AdmitPak is running at http://localhost:${PORT}`);
-});
+connectToMongoDB()
+    .then(() => {
+        app.listen(PORT, () => {
+            console.log(`AdmitPak is running at http://localhost:${PORT}`);
+        });
+    })
+    .catch(err => {
+        console.error("❌ Failed to start server:", err.message);
+        process.exit(1);
+    });
