@@ -597,7 +597,12 @@
         "source": "manual"
       }
     ],
-    "heroImage": "/images/universities/nust.webp"
+    "heroImage": "/images/universities/nust.webp",
+    "hec": {
+      "recognized": true,
+      "sourceUrl": "https://www.hec.gov.pk/english/universities/Pages/Recognised-Universities-of-Pakistan.aspx",
+      "verifiedOn": "2026-09-26"
+    }
   },
   {
     "id": 2,
@@ -825,7 +830,12 @@
         "Multiple campuses: Islamabad, Lahore, Karachi, Peshawar, Multan, Faisalabad"
       ]
     },
-    "heroImage": "/images/universities/fast-nuces.webp"
+    "heroImage": "/images/universities/fast-nuces.webp",
+    "hec": {
+      "recognized": true,
+      "sourceUrl": "https://www.hec.gov.pk/english/universities/Pages/Recognised-Universities-of-Pakistan.aspx",
+      "verifiedOn": "2026-09-26"
+    }
   },
   {
     "id": 3,
@@ -1452,7 +1462,12 @@
         "source": "manual"
       }
     ],
-    "heroImage": "/images/universities/comsats.webp"
+    "heroImage": "/images/universities/comsats.webp",
+    "hec": {
+      "recognized": true,
+      "sourceUrl": "https://www.hec.gov.pk/english/universities/Pages/Recognised-Universities-of-Pakistan.aspx",
+      "verifiedOn": "2026-09-26"
+    }
   },
   {
     "id": 4,
@@ -1715,7 +1730,12 @@
         "source": "manual"
       }
     ],
-    "heroImage": "/images/universities/lums.webp"
+    "heroImage": "/images/universities/lums.webp",
+    "hec": {
+      "recognized": true,
+      "sourceUrl": "https://www.hec.gov.pk/english/universities/Pages/Recognised-Universities-of-Pakistan.aspx",
+      "verifiedOn": "2026-09-26"
+    }
   },
   {
     "id": 5,
@@ -2257,7 +2277,12 @@
         "source": "manual"
       }
     ],
-    "heroImage": "/images/universities/uet.webp"
+    "heroImage": "/images/universities/uet.webp",
+    "hec": {
+      "recognized": true,
+      "sourceUrl": "https://www.hec.gov.pk/english/universities/Pages/Recognised-Universities-of-Pakistan.aspx",
+      "verifiedOn": "2026-09-26"
+    }
   },
   {
     "id": 6,
@@ -2567,6 +2592,11 @@
         "source": "manual"
       }
     ],
-    "heroImage": "/images/universities/giki.webp"
+    "heroImage": "/images/universities/giki.webp",
+    "hec": {
+      "recognized": true,
+      "sourceUrl": "https://www.hec.gov.pk/english/universities/Pages/Recognised-Universities-of-Pakistan.aspx",
+      "verifiedOn": "2026-09-26"
+    }
   }
 ]

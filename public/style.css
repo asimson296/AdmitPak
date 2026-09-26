@@ -3223,3 +3223,112 @@ body {
         text-align: left;
     }
 }
+
+/* ============================================
+   HEC RECOGNIZED BADGE
+   ============================================ */
+
+.hec-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    font-size: 11.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #d1fae5, #a7f3d0);
+    color: #065f46;
+    border: 1px solid #6ee7b7;
+    text-decoration: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    white-space: nowrap;
+}
+.hec-badge:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.25);
+}
+.hec-badge .hec-icon {
+    font-size: 13px;
+    line-height: 1;
+}
+
+/* Badge on hero (light text on dark image overlay) */
+.university-hero.has-hero-image .hec-badge {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.35);
+    color: #ffffff;
+    backdrop-filter: blur(6px);
+}
+.university-hero.has-hero-image .hec-badge:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+/* Badge row */
+.badge-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+/* ============================================
+   HEC RECOGNIZED — DIAGONAL CORNER RIBBON
+   ============================================ */
+
+.university-card-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.hec-ribbon {
+    position: absolute;
+    top: 18px;
+    left: -42px;
+    width: 155px;
+    padding: 5px 0;
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    transform: rotate(-45deg);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+    transition: filter 0.15s ease;
+    line-height: 1.1;
+}
+
+.hec-ribbon span {
+    display: block;
+    padding: 0 6px;
+}
+
+.hec-ribbon:hover {
+    filter: brightness(1.1);
+    box-shadow: 0 4px 14px rgba(16, 185, 129, 0.5);
+}
+
+/* Slight shine line inside the ribbon */
+.hec-ribbon::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.hec-ribbon::after {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.15);
+}

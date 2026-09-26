@@ -46,6 +46,26 @@ document.addEventListener("DOMContentLoaded", async () => {
             heroSection.classList.add("has-hero-image");
         }
 
+        // --- HEC Recognized badge (hero) ---
+        const heroInfo = document.querySelector(".university-hero-info");
+        if (heroInfo && university.hec && university.hec.recognized) {
+            const existing = heroInfo.querySelector(".hec-badge");
+            if (!existing) {
+                const badgeEl = document.createElement("div");
+                badgeEl.className = "badge-row";
+                badgeEl.innerHTML = `<a href="${university.hec.sourceUrl}" target="_blank" rel="noopener noreferrer" class="hec-badge" title="HEC Recognized University">
+                    <span class="hec-icon">✅</span> HEC Recognized
+                </a>`;
+                // Insert before intro paragraph
+                const intro = heroInfo.querySelector("[data-university-intro]");
+                if (intro) {
+                    intro.parentNode.insertBefore(badgeEl, intro);
+                } else {
+                    heroInfo.appendChild(badgeEl);
+                }
+            }
+        }
+
         // --- Hero intro (from about.summary) ---
         const introEl = document.querySelector("[data-university-intro]");
         if (introEl) {

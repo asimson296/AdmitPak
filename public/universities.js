@@ -113,11 +113,17 @@ document.addEventListener("DOMContentLoaded", () => {
         return `
             <div class="university-card-image ${u.heroImage ? 'has-image' : 'no-image'}" ${heroStyle}>
                 <div class="university-card-status status-${status}">${statusLabel}</div>
+                ${u.hec && u.hec.recognized ? `
+                    <a href="${u.hec.sourceUrl}" target="_blank" rel="noopener noreferrer" class="hec-ribbon" title="HEC Recognized University">
+                        <span>✓ HEC Recognized</span>
+                    </a>
+                ` : ""}
             </div>
 
             <div class="university-card-body">
                 <h3>${u.name}</h3>
                 <p class="university-card-location">📍 ${city}</p>
+
 
                 <div class="university-card-stats">
                     <div class="card-stat">
