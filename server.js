@@ -14,6 +14,59 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 app.use(cookieParser());
 
+// ============================================
+// PRE-RENDER universities.html for SEO
+// ============================================
+
+app.get("/universities.html", (req, res, next) => {
+    try {
+        const htmlPath = path.join(__dirname, "public", "universities.html");
+        const dataPath = path.join(__dirname, "data", "universities.json");
+        let html = fs.readFileSync(htmlPath, "utf8");
+        const unis = JSON.parse(fs.readFileSync(dataPath, "utf8"));
+
+        const cards = unis.map(u => {
+            const status = (u.admission && u.admission.status) ? u.admission.status.toLowerCase() : "unknown";
+            let statusLabel = "Not Verified";
+            if (status === "open") statusLabel = "Open";
+            else if (status === "closed") statusLabel = "Closed";
+            else if (status === "not-announced") statusLabel = "Not Announced";
+
+            const programCount = (u.programs && u.programs.length) ? u.programs.length : 0;
+            const city = u.city || "Pakistan";
+
+            return '<article class="university-card">' +
+                '<div class="university-card-body">' +
+                '<h3><a href="/university.html?slug=' + u.slug + '">' + u.name + '</a></h3>' +
+                '<p class="university-card-location">' + city + '</p>' +
+                '<div class="university-card-stats">' +
+                '<div class="card-stat"><span>Programs</span><strong>' + programCount + '</strong></div>' +
+                '<div class="card-stat"><span>Status</span><strong>' + statusLabel + '</strong></div>' +
+                '</div>' +
+                '<a href="/university.html?slug=' + u.slug + '" class="btn btn-primary university-card-link">View Details</a>' +
+                '</div>' +
+                '</article>';
+        }).join("");
+
+        const marker = '<div id="universities-page-list" class="universities-page-grid">';
+        const markerIdx = html.indexOf(marker);
+
+        if (markerIdx === -1) {
+            console.error("Pre-render: marker not found");
+            return next();
+        }
+
+        const insertAt = markerIdx + marker.length;
+        html = html.slice(0, insertAt) + cards + html.slice(insertAt);
+
+        res.setHeader("Content-Type", "text/html");
+        res.send(html);
+    } catch (err) {
+        console.error("Pre-render error:", err.message);
+        next();
+    }
+});
+
 // Serve frontend files (with no-cache for HTML/JS/CSS during development)
 app.use(express.static(path.join(__dirname, "public"), {
     etag: false,

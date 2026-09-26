@@ -3,6 +3,10 @@ const path = require("path");
 const https = require("https");
 const http = require("http");
 
+// Some university sites have incomplete SSL chains.
+// We only read public pages, so we allow them here.
+const insecureAgent = new https.Agent({ rejectUnauthorized: false });
+
 const { processSource } = require("./source-processor");
 const { saveSnapshot } = require("./snapshot-manager");
 const { createChangeReport } = require("./change-report");
@@ -15,7 +19,7 @@ function fetchSource(url) {
         const client = url.startsWith("https://") ? https : http;
         const request = client.get(
             url,
-            { headers: { "User-Agent": "AdmitPak-Monitor/1.0" } },
+            { headers: { "User-Agent": "AdmitPak-Monitor/1.0" }, agent: insecureAgent },
             response => {
                 if (response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
                     response.resume();
@@ -64,7 +68,7 @@ async function fetchPdfToFile(url) {
 
         const request = client.get(
             url,
-            { headers: { "User-Agent": "AdmitPak-Monitor/1.0" } },
+            { headers: { "User-Agent": "AdmitPak-Monitor/1.0" }, agent: insecureAgent },
             response => {
                 if (response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
                     response.resume();

@@ -332,6 +332,52 @@
           ]
         }
       ]
+    },
+    {
+      "universityId": 6,
+      "universityName": "GIKI",
+      "sources": [
+        {
+          "id": "giki-admissions",
+          "name": "UG Admissions",
+          "url": "https://giki.edu.pk/admissions/undergraduate-admissions/",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": []
+        },
+        {
+          "id": "giki-programs",
+          "name": "Programs",
+          "url": "https://giki.edu.pk/admissions/",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": []
+        },
+        {
+          "id": "giki-fees",
+          "name": "Fees",
+          "url": "https://giki.edu.pk/fees",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": []
+        },
+        {
+          "id": "giki-scholarships",
+          "name": "Scholarships",
+          "url": "https://giki.edu.pk/aid",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": []
+        },
+        {
+          "id": "giki-eligibility",
+          "name": "Eligibility",
+          "url": "https://giki.edu.pk/eligibility",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": []
+        }
+      ]
     }
   ]
 }

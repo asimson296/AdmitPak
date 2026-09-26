@@ -2258,5 +2258,315 @@
       }
     ],
     "heroImage": "/images/universities/uet.webp"
+  },
+  {
+    "id": 6,
+    "name": "GIKI",
+    "fullName": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
+    "slug": "giki",
+    "city": "Topi, Swabi",
+    "province": "Khyber Pakhtunkhwa",
+    "officialWebsite": "https://giki.edu.pk",
+    "applicationPortal": "https://admissions.giki.edu.pk",
+    "admission": {
+      "status": "closed",
+      "lastCycle": {
+        "year": 2026,
+        "applicationOpen": "2026-03-15",
+        "applicationClose": "2026-06-15",
+        "financialAidDeadline": "2026-06-20",
+        "testWindow": "2026-07-06 to 2026-07-10",
+        "meritList": "2026-07-21",
+        "orientation": "2026-08-29 to 2026-08-30",
+        "classesStart": "2026-08-31"
+      },
+      "nextCycle": {
+        "year": 2027,
+        "published": false,
+        "expectedWindow": "Mar–Aug 2027",
+        "note": "Fall intake only. 2027 schedule expected to be published around Feb–Mar 2027."
+      },
+      "applicationFee": "Rs. 3,500 (single test) / Rs. 5,000 (both tests) + Rs. 1,000 if applying for Financial Aid",
+      "lastVerified": "2026-09-26",
+      "verificationStatus": "verified"
+    },
+    "fees": {
+      "admissionFee": "Rs. 75,000 (one-time) / US$ 680 for foreign applicants",
+      "securityDeposit": "Rs. 40,000 (refundable)",
+      "tuitionPerSemester": {
+        "engineeringComputing": "Rs. 470,000 (includes accommodation)",
+        "managementSciences": "Rs. 412,500 (includes accommodation)"
+      },
+      "annualFee": {
+        "engineeringComputing": "Rs. 940,000",
+        "managementSciences": "Rs. 825,000"
+      },
+      "convocationFee": "Rs. 17,500 (final year only)",
+      "messSecurity": "Rs. 15,000 (advance)",
+      "administrativeCharge": "5% of semester fee if paid per semester (waived if paid annually)",
+      "foreignStudentTuition": "US$ 5,000 per year",
+      "currency": "PKR",
+      "note": "Fees for 2025-26. Subject to annual revision."
+    },
+    "programs": [
+      {
+        "name": "BS Electrical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus (Topi)"
+        ]
+      },
+      {
+        "name": "BS Mechanical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus (Topi)"
+        ]
+      },
+      {
+        "name": "BS Chemical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus (Topi)"
+        ]
+      },
+      {
+        "name": "BS Civil Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus (Topi)"
+        ]
+      },
+      {
+        "name": "BS Materials Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus (Topi)"
+        ]
+      },
+      {
+        "name": "BS Computer Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus (Topi)"
+        ]
+      },
+      {
+        "name": "BS Computer Science",
+        "group": "Computing",
+        "campuses": [
+          "Main Campus (Topi)"
+        ]
+      },
+      {
+        "name": "BS Software Engineering",
+        "group": "Computing",
+        "campuses": [
+          "Main Campus (Topi)"
+        ]
+      },
+      {
+        "name": "BS Artificial Intelligence",
+        "group": "Computing",
+        "campuses": [
+          "Main Campus (Topi)"
+        ]
+      },
+      {
+        "name": "BS Cyber Security",
+        "group": "Computing",
+        "campuses": [
+          "Main Campus (Topi)"
+        ]
+      },
+      {
+        "name": "BS Data Science",
+        "group": "Computing",
+        "campuses": [
+          "Main Campus (Topi)"
+        ]
+      },
+      {
+        "name": "BS Management Sciences",
+        "group": "Business",
+        "campuses": [
+          "Main Campus (Topi)"
+        ]
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "GIK Merit Scholarship",
+        "type": "Internal",
+        "description": "Top 18 positions in Engineering admission test, Top 2 in Management Sciences. 20 seats. Fully funded."
+      },
+      {
+        "name": "GIK Financial Assistance for Top Female",
+        "type": "Internal",
+        "description": "Top 7 females in Engineering, Top 3 in Management. 10 seats. Fully funded."
+      },
+      {
+        "name": "GIK Financial Assistance (Need-cum-Merit)",
+        "type": "Internal",
+        "description": "40 seats. Fully or partially funded. Apply at time of admission."
+      },
+      {
+        "name": "GIK Alumni Association",
+        "type": "Internal",
+        "description": "For needy students (2nd year onwards). 30 seats. Fully/partially funded."
+      },
+      {
+        "name": "Interest-Free Loan",
+        "type": "Internal",
+        "description": "Liberally provided to needy and deserving students. Repayable in easy six-monthly installments starting one year after graduation. 40-50 students benefit annually."
+      },
+      {
+        "name": "CMEEF (KPK)",
+        "type": "External",
+        "description": "Khyber Pakhtunkhwa domiciled, annual family income < Rs. 1,200,000. 4 seats. Fully funded."
+      },
+      {
+        "name": "CM-Honhaar Scholarship (Punjab)",
+        "type": "External",
+        "description": "Punjab domiciled, annual family income < Rs. 500,000. 15 seats. Fully funded."
+      },
+      {
+        "name": "DWP + PSSF",
+        "type": "External",
+        "description": "KP domiciled, annual family income < Rs. 840,000. 10 seats. Fully funded."
+      },
+      {
+        "name": "Descon Endowment Fund",
+        "type": "External",
+        "description": "Rural area students eligible for GIK Financial Assistance. 1 seat. Fully funded."
+      },
+      {
+        "name": "Ihsan Trust Scholarship",
+        "type": "External",
+        "description": "Need-based, partial tuition fee coverage. 40 seats."
+      },
+      {
+        "name": "KPEF",
+        "type": "External",
+        "description": "KP domiciled, annual family income < Rs. 1,920,000. 2 seats. Fully funded."
+      },
+      {
+        "name": "PEEF",
+        "type": "External",
+        "description": "Punjab domiciled, annual family income < Rs. 720,000. 10 seats. Rs. 500,000 scholarship. Fully funded. Apply at admission only."
+      },
+      {
+        "name": "Sindh Scholarship",
+        "type": "External",
+        "description": "Sindh domiciled, annual family income < Rs. 1,200,000. 5 seats. Fully funded."
+      },
+      {
+        "name": "Lucky Cement Scholarship",
+        "type": "External",
+        "description": "Pakistani national, preference for KP domicile. 1 seat. Fully funded."
+      },
+      {
+        "name": "PEL Scholarship",
+        "type": "External",
+        "description": "Merit-cum-need for FEE faculty students. 1 seat. Fully funded."
+      },
+      {
+        "name": "ICI Scholarship",
+        "type": "External",
+        "description": "Top female student. 1 seat. Fully funded."
+      },
+      {
+        "name": "Habbah Trust",
+        "type": "External",
+        "description": "Need-based, partially funded. 4 seats."
+      }
+    ],
+    "eligibility": [
+      {
+        "group": "Engineering (EE, ME, ChemE, Civil, Materials, Computer Engineering)",
+        "programs": [
+          "BS Electrical Engineering",
+          "BS Mechanical Engineering",
+          "BS Chemical Engineering",
+          "BS Civil Engineering",
+          "BS Materials Engineering",
+          "BS Computer Engineering"
+        ],
+        "sscMin": "—",
+        "hsscMin": "60% overall",
+        "subjects": "Pre-Engineering OR ICS (Math, Physics, CS) OR Pre-Medical with Additional Math. 60%+ in Math, Physics and overall.",
+        "entryTests": [
+          "GIKI Admission Test"
+        ],
+        "weightage": {
+          "test": "85%",
+          "ssc": "15%"
+        }
+      },
+      {
+        "group": "Computing (AI, CS, Cyber, DS, SE)",
+        "programs": [
+          "BS Artificial Intelligence",
+          "BS Computer Science",
+          "BS Cyber Security",
+          "BS Data Science",
+          "BS Software Engineering"
+        ],
+        "sscMin": "—",
+        "hsscMin": "60% overall",
+        "subjects": "HSSC with Math, Physics and any third subject. 60%+ in Math, Physics and overall.",
+        "entryTests": [
+          "GIKI Admission Test (Engineering/Computing Exam)"
+        ],
+        "weightage": {
+          "test": "85%",
+          "ssc": "15%"
+        }
+      },
+      {
+        "group": "Management Sciences",
+        "programs": [
+          "BS Management Sciences"
+        ],
+        "sscMin": "—",
+        "hsscMin": "60% overall",
+        "subjects": "HSSC in any stream (Pre-Engg, General Science, ICS, Pre-Medical, Humanities).",
+        "entryTests": [
+          "GIKI Admission Test (Management Exam)"
+        ],
+        "weightage": {
+          "test": "85%",
+          "ssc": "15%"
+        }
+      }
+    ],
+    "entryTest": "GIKI Admission Test (Engineering/Computing OR Management exam)",
+    "about": {
+      "summary": "GIKI is one of Pakistan's top engineering universities, located in Topi, Swabi (KPK), known for producing world-class engineers and entrepreneurs.",
+      "reputation": "Consistently ranked among Pakistan's top 3 engineering universities. Alumni include CEOs, Microsoft/Apple/Tesla managers, and successful entrepreneurs. Known for its rigorous curriculum and strong industry placement.",
+      "bestFor": "Students seeking world-class engineering or computing education in a residential campus environment, with strong financial aid options for deserving students.",
+      "strengths": [
+        "Consistently ranked top 3 in Pakistan for Engineering",
+        "Notable alumni at Microsoft, Apple, Tesla, AWS, and as CEOs",
+        "Residential campus in Topi, Swabi (KPK)",
+        "16 scholarship opportunities including merit, need-based and interest-free loans",
+        "Merit test worth 85% — pure merit-based admission"
+      ]
+    },
+    "sources": {
+      "admissions": "https://giki.edu.pk/admissions/undergraduate-admissions/",
+      "programs": "https://giki.edu.pk/admissions/",
+      "fees": "https://giki.edu.pk/fees",
+      "scholarships": "https://giki.edu.pk/aid",
+      "eligibility": "https://giki.edu.pk/eligibility"
+    },
+    "changeHistory": [
+      {
+        "date": "2026-09-26",
+        "action": "Initial data population from official GIKI website",
+        "source": "manual"
+      }
+    ],
+    "heroImage": "/images/universities/giki.webp"
   }
 ]
