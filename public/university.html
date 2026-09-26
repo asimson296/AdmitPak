@@ -402,27 +402,80 @@
 
 
     <!-- Footer -->
-    <footer class="site-footer">
+        <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
 
-        <div class="container footer-content">
+                <div class="footer-brand">
+                    <a href="/" class="logo">Admit<span>Pak</span></a>
+                    <p class="footer-tagline">
+                        Pakistan's free university admission hub. Deadlines, fees, programs,
+                        scholarships — all in one place.
+                    </p>
+                    <p class="footer-note">
+                        🇵🇰 Made for Pakistani students
+                    </p>
+                </div>
 
-            <div>
-                <a href="/" class="logo">
-                    Admit<span>Pak</span>
-                </a>
+                <div class="footer-col">
+                    <h4>Top Universities</h4>
+                    <ul>
+                        <li><a href="/university.html?slug=nust">NUST</a></li>
+                        <li><a href="/university.html?slug=fast-nuces">FAST-NUCES</a></li>
+                        <li><a href="/university.html?slug=lums">LUMS</a></li>
+                        <li><a href="/university.html?slug=comsats">COMSATS</a></li>
+                        <li><a href="/university.html?slug=uet-lahore">UET Lahore</a></li>
+                        <li><a href="/university.html?slug=giki">GIKI</a></li>
+                    </ul>
+                </div>
 
-                <p>
-                    Plan smarter. Apply with confidence.
-                </p>
+                <div class="footer-col">
+                    <h4>Browse</h4>
+                    <ul>
+                        <li><a href="/universities.html">All Universities</a></li>
+                        <li><a href="/universities.html">Engineering</a></li>
+                        <li><a href="/universities.html">Computing</a></li>
+                        <li><a href="/universities.html">Business</a></li>
+                        <li><a href="/#saved">My Saved List</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/#about">About</a></li>
+                        <li><a href="/privacy.html">Privacy Policy</a></li>
+                        <li><a href="/terms.html">Terms of Service</a></li>
+                        <li><a href="#" id="footer-feedback-link">Send Feedback</a></li>
+                        <li><a href="mailto:admitpak.pk@gmail.com">admitpak.pk@gmail.com</a></li>
+                    </ul>
+                </div>
+
             </div>
 
-            <p>
-                <a href="/privacy.html" style="color:inherit;">Privacy</a> · <a href="/terms.html" style="color:inherit;">Terms</a> · © 2026 AdmitPak
-            </p>
-
+            <div class="footer-bottom">
+                <p>© 2026 AdmitPak. All rights reserved.</p>
+                <p class="footer-bottom-note">
+                    AdmitPak is not affiliated with any university. Always verify details on official university pages.
+                </p>
+            </div>
         </div>
-
     </footer>
+
+    <script>
+        // Wire footer "Send Feedback" to the floating feedback button
+        document.addEventListener("DOMContentLoaded", function () {
+            var link = document.getElementById("footer-feedback-link");
+            if (link) {
+                link.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    var fab = document.getElementById("feedback-fab");
+                    if (fab) fab.click();
+                });
+            }
+        });
+    </script>
 
     <script src="tracker.js"></script>
     <script src="animations.js"></script>
