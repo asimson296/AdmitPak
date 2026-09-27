@@ -55,4 +55,35 @@
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
+
+    <url>
+        <loc>https://admitpak.onrender.com/blog/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://admitpak.onrender.com/blog/nust-net-test-pattern-2027.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://admitpak.onrender.com/blog/fast-fee-structure-2027.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://admitpak.onrender.com/blog/nust-vs-fast-for-cs.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://admitpak.onrender.com/blog/pakistani-university-deadlines-2027.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://admitpak.onrender.com/blog/giki-admission-guide.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
