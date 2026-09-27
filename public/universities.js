@@ -113,6 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return `
             <div class="university-card-image ${u.heroImage ? 'has-image' : 'no-image'}" ${heroStyle}>
                 <div class="university-card-status status-${status}">${statusLabel}</div>
+                ${u.isOnline ? '<div class="online-badge" style="position: absolute; top: 14px; left: 14px; z-index: 3;"><span class="icon">🌐</span> Online</div>' : ""}
                 ${u.hec && u.hec.recognized ? `
                     <a href="${u.hec.sourceUrl}" target="_blank" rel="noopener noreferrer" class="hec-ribbon" title="HEC Recognized University">
                         <span>✓ HEC Recognized</span>

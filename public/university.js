@@ -66,6 +66,19 @@ document.addEventListener("DOMContentLoaded", async () => {
             }
         }
 
+        // --- Online University badge (for VU) ---
+        if (heroInfo && university.isOnline) {
+            const existingOnline = heroInfo.querySelector(".online-badge");
+            if (!existingOnline) {
+                const rowEl = heroInfo.querySelector(".badge-row") || heroInfo;
+                const badge = document.createElement("span");
+                badge.className = "online-badge";
+                badge.title = "Fully online university";
+                badge.innerHTML = '<span class="icon">🌐</span> Online University';
+                rowEl.appendChild(badge);
+            }
+        }
+
         // --- Hero intro (from about.summary) ---
         const introEl = document.querySelector("[data-university-intro]");
         if (introEl) {

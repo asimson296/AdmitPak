@@ -3332,3 +3332,35 @@ body {
     height: 1px;
     background: rgba(0, 0, 0, 0.15);
 }
+
+/* ============================================
+   ONLINE UNIVERSITY BADGE (VU)
+   ============================================ */
+
+.online-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+    color: #1e40af;
+    border: 1px solid #93c5fd;
+    white-space: nowrap;
+}
+
+.online-badge .icon {
+    font-size: 12px;
+    line-height: 1;
+}
+
+.university-hero.has-hero-image .online-badge {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.35);
+    color: #ffffff;
+    backdrop-filter: blur(6px);
+}
