@@ -378,6 +378,98 @@
           "ignorePatterns": []
         }
       ]
+    },
+    {
+      "universityId": 8,
+      "universityName": "NED University",
+      "sources": [
+        {
+          "id": "ned-admissions",
+          "name": "Admissions",
+          "url": "https://www.neduet.edu.pk/admission",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": []
+        },
+        {
+          "id": "ned-programs",
+          "name": "Academic Programmes",
+          "url": "https://www.neduet.edu.pk/academic_programmes",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": []
+        },
+        {
+          "id": "ned-about",
+          "name": "About NED",
+          "url": "https://www.neduet.edu.pk/our_university",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": []
+        },
+        {
+          "id": "ned-faq",
+          "name": "Admission FAQ (PDF)",
+          "url": "https://www.neduet.edu.pk/sites/default/files/Admissions-2026/FAQ.pdf",
+          "type": "pdf",
+          "enabled": true,
+          "ignorePatterns": []
+        },
+        {
+          "id": "ned-scholarships",
+          "name": "Scholarships List (PDF)",
+          "url": "https://www.neduet.edu.pk/sites/default/files/users/student_affairs/List%20of%20Scholarship.pdf",
+          "type": "pdf",
+          "enabled": true,
+          "ignorePatterns": []
+        }
+      ]
+    },
+    {
+      "universityId": 7,
+      "universityName": "Punjab University",
+      "sources": [
+        {
+          "id": "pu-admission-notices",
+          "name": "Admission Notices",
+          "url": "https://pu.edu.pk/home/admission_notices",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": []
+        },
+        {
+          "id": "pu-offered-programs",
+          "name": "Offered Programs",
+          "url": "https://admissions.pu.edu.pk/admissions/offered-programs",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": []
+        },
+        {
+          "id": "pu-fee-schedule",
+          "name": "Fee Schedule (PDF)",
+          "url": "https://pu.edu.pk/downloads/Dues-Fee-Schedule-for-the-Year-2026-27.pdf",
+          "type": "pdf",
+          "enabled": true,
+          "ignorePatterns": []
+        },
+        {
+          "id": "pu-scholarships",
+          "name": "Scholarships",
+          "url": "https://scholarships.pu.edu.pk/",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": []
+        },
+        {
+          "id": "pu-admission-criteria",
+          "name": "Admission Criteria",
+          "url": "https://pu.edu.pk/regulations/contents/Admission-criteria.html",
+          "type": "html",
+          "enabled": true,
+          "ignorePatterns": []
+        }
+      ]
     }
   ]
 }

@@ -2600,7 +2600,7 @@
     }
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "Punjab University",
     "fullName": "University of the Punjab",
     "slug": "punjab-university",
@@ -3427,5 +3427,499 @@
       "verifiedOn": "2026-09-27"
     },
     "heroImage": "/images/universities/pu.webp"
+  },
+  {
+    "id": 8,
+    "name": "NED University",
+    "fullName": "NED University of Engineering & Technology",
+    "slug": "neduet",
+    "city": "Karachi",
+    "province": "Sindh",
+    "officialWebsite": "https://www.neduet.edu.pk",
+    "applicationPortal": "https://www.neduet.edu.pk/admission",
+    "admission": {
+      "status": "not-announced",
+      "lastCycle": null,
+      "nextCycle": {
+        "year": 2027,
+        "published": false,
+        "expectedWindow": "Mar–Jul 2027",
+        "note": "Fall intake only. 2027 schedule expected around March 2027."
+      },
+      "applicationFee": "Rs. 3,500 (Pre-Admission Entry Test) — approximate, check official schedule",
+      "lastVerified": "2026-09-27",
+      "verificationStatus": "verified"
+    },
+    "fees": {
+      "note": "NED charges tuition + examination + service fees per semester. Self-Finance category is significantly higher (see below). Exact tuition varies by program. Check the official NED admission page for your program's current rate.",
+      "selfFinanceFee": "Rs. 890,000 + 3% tax (Self-Finance, one-time)",
+      "selfFinanceSponsored": "Rs. 1,100,000 + 3% tax (Sponsored Seats)",
+      "foreignStudentFee": "Rs. 1,100,000 + 3% tax",
+      "admissionFee": "Payable on interview day (varies by program)",
+      "currency": "PKR",
+      "note2": "Self-finance fee is NOT part of regular fees — it's a one-time extra for self-finance category seats."
+    },
+    "programs": [
+      {
+        "name": "BE Civil Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BE Urban & Infrastructure Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BE Petroleum Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BE Mechanical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BE Industrial & Manufacturing Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BE Automotive Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BE Electrical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BE Computer & Information Systems Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BE Electronic Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BE Telecommunications Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BE Chemical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BE Materials Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BE Metallurgical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BE Polymer & Petrochemical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BE Biomedical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "LEJ Campus"
+        ]
+      },
+      {
+        "name": "BE Textile Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BE Food Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "Bachelor of Architecture (B.Arch)",
+        "group": "Architecture & Design",
+        "campuses": [
+          "City Campus"
+        ]
+      },
+      {
+        "name": "BS Computer Science",
+        "group": "Computing",
+        "campuses": [
+          "Main Campus",
+          "TIEST (Mithi)"
+        ]
+      },
+      {
+        "name": "BS Software Engineering",
+        "group": "Computing",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BS Information Technology",
+        "group": "Computing",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BS Artificial Intelligence",
+        "group": "Computing",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BS Data Science",
+        "group": "Computing",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BS Cyber Security",
+        "group": "Computing",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BS Gaming and Animation",
+        "group": "Computing",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BS Computational Finance",
+        "group": "Sciences",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BS Industrial Chemistry",
+        "group": "Sciences",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BS Applied Physics",
+        "group": "Sciences",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BS Textile Sciences",
+        "group": "Sciences",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BS Management Sciences",
+        "group": "Business",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BS Economics & Finance",
+        "group": "Business",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BS Development Studies",
+        "group": "Social Sciences & Humanities",
+        "campuses": [
+          "City Campus"
+        ]
+      },
+      {
+        "name": "BS English Linguistics",
+        "group": "Social Sciences & Humanities",
+        "campuses": [
+          "Main Campus"
+        ]
+      },
+      {
+        "name": "BS English (TIEST)",
+        "group": "Social Sciences & Humanities",
+        "campuses": [
+          "TIEST (Mithi)"
+        ]
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "NED Scholars Scholarship",
+        "type": "Internal",
+        "description": "Covers admission fees, tuition fees, food & lodging for hostelers. Need-based, for deserving students."
+      },
+      {
+        "name": "NED Alumni Association Scholarships",
+        "type": "Internal",
+        "description": "Multiple scholarships from NED alumni batches (1970-75, 81-82, EE/CS 94-95, NEDAC, NEDAASC, NED Chicago, UKAA, and more)."
+      },
+      {
+        "name": "MaaJee Scholarship",
+        "type": "Internal",
+        "description": "Founded by Mr. Aftab Rizvi (NED alumnus). For deserving students."
+      },
+      {
+        "name": "Orange Tree Foundation (OTF) Scholarship",
+        "type": "External",
+        "description": "Zakat (80%) & Saqda (20%) seats. For Mechanical, Electrical, CS & AI students. Min 70% in Inter or CGPA 2.8."
+      },
+      {
+        "name": "Disadvantaged Students Scholarship Programme (DSSP)",
+        "type": "External",
+        "description": "For students from disadvantaged backgrounds."
+      },
+      {
+        "name": "Minority Student Scholarship Program (MSSP)",
+        "type": "External",
+        "description": "For students from religious minority communities."
+      },
+      {
+        "name": "Ehsaas Undergraduate Scholarship Project",
+        "type": "External",
+        "description": "Federal government scholarship program."
+      },
+      {
+        "name": "Pakistan Bait-ul-Mal",
+        "type": "External",
+        "description": "Federal financial assistance for deserving students."
+      },
+      {
+        "name": "Ihsan Trust / Meezan Bank",
+        "type": "External",
+        "description": "Shariah-compliant interest-free loan."
+      },
+      {
+        "name": "Sindh HEC Indigenous Scholarship",
+        "type": "External",
+        "description": "Sindh Higher Education Commission scholarship program."
+      },
+      {
+        "name": "Professional Education Foundation (PEF)",
+        "type": "External",
+        "description": "For 1st Year Engineering, CS & IT students on Need-cum-Merit basis."
+      },
+      {
+        "name": "NBP Loan Scheme",
+        "type": "External",
+        "description": "National Bank of Pakistan student loan."
+      },
+      {
+        "name": "HEC Need-Based Scholarships",
+        "type": "External",
+        "description": "Higher Education Commission financial aid program."
+      },
+      {
+        "name": "Zakat & Ushr Stipend",
+        "type": "External",
+        "description": "Zakat-funded stipend for deserving Muslim students."
+      },
+      {
+        "name": "Various Donor Scholarships",
+        "type": "External",
+        "description": "83+ donor-funded scholarships including Habib Metropolitan Bank, Karachi Gateway Terminal, Industrial Steel Limited, Pakistan Cable, and many family endowments. See official NED scholarships list for full details."
+      }
+    ],
+    "eligibility": [
+      {
+        "group": "Engineering (BE) Programs",
+        "programs": [
+          "Civil",
+          "Urban & Infrastructure",
+          "Petroleum",
+          "Mechanical",
+          "Industrial & Manufacturing",
+          "Automotive",
+          "Electrical",
+          "Computer & Information Systems",
+          "Electronic",
+          "Telecommunications",
+          "Chemical",
+          "Materials",
+          "Metallurgical",
+          "Polymer & Petrochemical",
+          "Biomedical",
+          "Textile",
+          "Food Engineering"
+        ],
+        "sscMin": "—",
+        "hsscMin": "60% in HSC Pre-Engineering / Pre-Medical / Computer Science",
+        "subjects": "Pre-Engineering (Math, Physics, Chem) OR Pre-Medical (for Biomedical only) OR CS group. CS group requires additional non-credit Chemistry course in 1st year (extra fee applies).",
+        "entryTests": [
+          "NED Pre-Admission Entry Test (computer-based, 50% pass required)"
+        ],
+        "weightage": {
+          "hsc": "40%",
+          "entryTest": "60%"
+        }
+      },
+      {
+        "group": "B.Arch & BS Computer Science",
+        "programs": [
+          "B.Arch",
+          "BS Computer Science"
+        ],
+        "sscMin": "—",
+        "hsscMin": "60% in HSC (any stream — Pre-Engineering / Pre-Medical / CS / Arts with Math / Commerce)",
+        "subjects": "Varies by stream",
+        "entryTests": [
+          "NED Pre-Admission Entry Test (50% pass)"
+        ],
+        "weightage": {
+          "hssc": "40%",
+          "entryTest": "60%"
+        }
+      },
+      {
+        "group": "BS Programs (except CS)",
+        "programs": [
+          "BS Software Engineering",
+          "BS IT",
+          "BS AI",
+          "BS Data Science",
+          "BS Cyber Security",
+          "BS Gaming & Animation",
+          "BS Computational Finance",
+          "BS Industrial Chemistry",
+          "BS Applied Physics",
+          "BS Textile Sciences",
+          "BS Management Sciences",
+          "BS Economics & Finance",
+          "BS Development Studies",
+          "BS English Linguistics"
+        ],
+        "sscMin": "—",
+        "hsscMin": "50% in HSC (any stream)",
+        "subjects": "Pre-Engineering, Pre-Medical, CS, Commerce, Arts with Math, or Arts — varies by program",
+        "entryTests": [
+          "NED Pre-Admission Entry Test (50% pass)"
+        ],
+        "weightage": {
+          "hssc": "40%",
+          "entryTest": "60%"
+        }
+      },
+      {
+        "group": "DAE Holders (Diploma Route)",
+        "programs": [
+          "BE Civil",
+          "BE Civil (Construction)",
+          "BE Petroleum",
+          "BE Mechanical",
+          "BE Textile",
+          "BE Industrial & Manufacturing",
+          "BE Automotive",
+          "BE Electrical",
+          "BE Telecommunications",
+          "BE Electronics",
+          "BE Chemical",
+          "BE Metallurgical",
+          "BE Materials",
+          "BE Polymer & Petrochemical"
+        ],
+        "sscMin": "—",
+        "hsscMin": "DAE in relevant field from Sindh Board of Technical Education (SBTE) with 60%+ — passed within last 3 years",
+        "subjects": "3-year Diploma of Associate Engineering in relevant technology",
+        "entryTests": [
+          "NED Pre-Admission Entry Test"
+        ],
+        "weightage": {
+          "hssc": "40%",
+          "entryTest": "60%"
+        }
+      }
+    ],
+    "entryTest": "NED Pre-Admission Entry Test (computer-based, min 50% — can be attempted twice, higher score counts)",
+    "about": {
+      "summary": "NED University of Engineering & Technology is one of Pakistan's oldest and most prestigious engineering institutions — established in 1921 as Prince of Wales Engineering College, later renamed after Nadirshaw Edulji Dinshaw.",
+      "reputation": "Nearly 11,986 students enrolled. Ranked among Pakistan's top engineering universities. Strong alumni network in industry, academia, and government. 40-hectare main campus in Karachi. Constituent college at TIEST (Tharparkar) established in 2019.",
+      "bestFor": "Students seeking a top-tier engineering or computing education in Karachi with strong industry linkages and a century-old legacy of technical excellence.",
+      "strengths": [
+        "Pakistan's oldest engineering institution (est. 1921)",
+        "Nearly 12,000 students across UG and PG levels",
+        "18 BE programs + B.Arch + 14 BS programs",
+        "83+ scholarships including endowment and donor funds",
+        "100% merit-based admission (no quota or donation seats)",
+        "Multiple campuses: Main, City (B.Arch), LEJ (Biomedical), TIEST (Mithi)",
+        "Free shuttle service between campuses for students"
+      ]
+    },
+    "sources": {
+      "admissions": "https://www.neduet.edu.pk/admission",
+      "programs": "https://www.neduet.edu.pk/academic_programmes",
+      "fees": "https://www.neduet.edu.pk/sites/default/files/Admissions-2026/FAQ.pdf",
+      "scholarships": "https://www.neduet.edu.pk/sites/default/files/users/student_affairs/List%20of%20Scholarship.pdf",
+      "eligibility": "https://www.neduet.edu.pk/sites/default/files/Admissions-2026/FAQ.pdf"
+    },
+    "hec": {
+      "recognized": true,
+      "sourceUrl": "https://www.hec.gov.pk/english/universities/Pages/Recognised-Universities-of-Pakistan.aspx",
+      "verifiedOn": "2026-09-27"
+    },
+    "changeHistory": [
+      {
+        "date": "2026-09-27",
+        "action": "Initial data population from official NED University website",
+        "source": "manual"
+      }
+    ],
+    "heroImage": "/images/universities/ned.webp"
   }
 ]
