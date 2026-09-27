@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         const statusEl = document.querySelector("[data-admission-status]");
         if (statusEl) {
             const status = university.admission.status || "Unknown";
-            statusEl.textContent = status;
+            statusEl.textContent = status.charAt(0).toUpperCase() + status.slice(1);
             const safeClass = "status-" + String(status)
                 .toLowerCase()
                 .replace(/[^a-z0-9]+/g, "-")
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         renderFees(university.fees, university.sources);
 
         console.log('[DEBUG] About to renderPrograms');
-        renderPrograms(university.programs, university.sources);
+        renderPrograms(university.programs, university.sources, university.additionalPrograms);
 
         console.log('[DEBUG] About to renderScholarships');
         renderScholarships(university.scholarships, university.sources);
@@ -213,7 +213,11 @@ document.addEventListener("DOMContentLoaded", async () => {
         if (fees.tuitionPerSemester && typeof fees.tuitionPerSemester === "object") {
             const tierLabels = {
                 engineeringComputingSciences: "Engineering / Computing / Sciences",
-                architectureSocialSciencesBusiness: "Architecture / Social Sciences / Business"
+                architectureSocialSciencesBusiness: "Architecture / Social Sciences / Business",
+                morningHumanities: "Morning — Humanities & Arts",
+                morningSciences: "Morning — Sciences, Commerce & Math",
+                morningEngineeringBusiness: "Morning — Engineering, CS, BBA & Professional",
+                selfSupportingRange: "Self-Supporting / Replica Programs"
             };
             Object.entries(fees.tuitionPerSemester).forEach(([key, value]) => {
                 const label = tierLabels[key] || key;
@@ -279,7 +283,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
 
-    function renderPrograms(programs, sources) {
+    function renderPrograms(programs, sources, additionalPrograms) {
         const container = document.querySelector("[data-programs-container]");
         if (!container) return;
 
@@ -345,9 +349,45 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         html += '</div>';
 
+        // Additional programs button (only if provided)
+        if (Array.isArray(additionalPrograms) && additionalPrograms.length > 0) {
+            html += `
+                <div class="additional-programs-section">
+                    <button type="button" class="additional-programs-toggle" id="show-additional-programs">
+                        <span>📚</span>
+                        <span class="toggle-text">Show ${additionalPrograms.length}+ Additional Programs</span>
+                        <span class="toggle-arrow">▼</span>
+                    </button>
+                    <div class="additional-programs-container" id="additional-programs-container" hidden></div>
+                </div>
+            `;
+        }
+
         html += renderVerifyButton(sources, "programs");
 
         container.innerHTML = html;
+
+        // Wire additional programs toggle
+        const addBtn = document.getElementById("show-additional-programs");
+        const addBox = document.getElementById("additional-programs-container");
+
+        if (addBtn && addBox && Array.isArray(additionalPrograms)) {
+            let expanded = false;
+            addBtn.addEventListener("click", () => {
+                expanded = !expanded;
+                if (expanded) {
+                    // Build the additional programs grouped view
+                    addBox.innerHTML = buildAdditionalProgramsHTML(additionalPrograms);
+                    addBox.hidden = false;
+                    addBtn.classList.add("expanded");
+                    addBtn.querySelector(".toggle-text").textContent = "Hide Additional Programs";
+                } else {
+                    addBox.hidden = true;
+                    addBtn.classList.remove("expanded");
+                    addBtn.querySelector(".toggle-text").textContent = `Show ${additionalPrograms.length}+ Additional Programs`;
+                }
+            });
+        }
 
         // Wire "Show all" toggles
         container.querySelectorAll("[data-toggle-group]").forEach(btn => {
@@ -476,15 +516,11 @@ document.addEventListener("DOMContentLoaded", async () => {
                     ${e.weightage ? `
                         <div class="eligibility-card-weightage">
                             <span class="label">Merit Weightage</span>
-                            <div class="weightage-row">
-                                <span>Test</span><strong>${e.weightage.test}</strong>
-                            </div>
-                            <div class="weightage-row">
-                                <span>HSSC</span><strong>${e.weightage.hssc}</strong>
-                            </div>
-                            <div class="weightage-row">
-                                <span>SSC</span><strong>${e.weightage.ssc}</strong>
-                            </div>
+                            ${Object.entries(e.weightage).map(([k, v]) => `
+                                <div class="weightage-row">
+                                    <span>${k.charAt(0).toUpperCase() + k.slice(1)}</span><strong>${v}</strong>
+                                </div>
+                            `).join("")}
                         </div>
                     ` : ""}
                 </div>
@@ -648,6 +684,32 @@ document.addEventListener("DOMContentLoaded", async () => {
                 });
             }
         });
+    }
+
+
+    function buildAdditionalProgramsHTML(additionalPrograms) {
+        const groups = {};
+        additionalPrograms.forEach(p => {
+            const g = p.group || "Other Programs";
+            if (!groups[g]) groups[g] = [];
+            groups[g].push(p.name);
+        });
+
+        let out = '<div class="additional-programs-grid">';
+
+        Object.entries(groups).forEach(([group, items]) => {
+            out += `
+                <div class="additional-programs-group">
+                    <h4>${group}</h4>
+                    <ul>
+                        ${items.map(name => `<li>${name}</li>`).join("")}
+                    </ul>
+                </div>
+            `;
+        });
+
+        out += '</div>';
+        return out;
     }
 
 

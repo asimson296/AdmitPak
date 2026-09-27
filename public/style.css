@@ -3364,3 +3364,117 @@ body {
     color: #ffffff;
     backdrop-filter: blur(6px);
 }
+
+/* ============================================
+   ADDITIONAL PROGRAMS TOGGLE
+   ============================================ */
+
+.additional-programs-section {
+    margin-top: 28px;
+    padding-top: 24px;
+    border-top: 2px dashed #e5e7eb;
+}
+
+.additional-programs-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 16px 24px;
+    background: linear-gradient(135deg, #eef2ff, #e0e7ff);
+    color: #4338ca;
+    border: 2px solid #c7d2fe;
+    border-radius: 14px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    letter-spacing: 0.01em;
+}
+
+.additional-programs-toggle:hover {
+    background: linear-gradient(135deg, #e0e7ff, #c7d2fe);
+    border-color: #818cf8;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.2);
+}
+
+.additional-programs-toggle.expanded {
+    background: linear-gradient(135deg, #4338ca, #6366f1);
+    color: #ffffff;
+    border-color: #4338ca;
+}
+
+.additional-programs-toggle .toggle-arrow {
+    font-size: 12px;
+    transition: transform 0.2s ease;
+    display: inline-block;
+}
+
+.additional-programs-toggle.expanded .toggle-arrow {
+    transform: rotate(180deg);
+}
+
+.additional-programs-container {
+    margin-top: 24px;
+    animation: fadeSlideDown 0.3s ease;
+}
+
+@keyframes fadeSlideDown {
+    from { opacity: 0; transform: translateY(-8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.additional-programs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.additional-programs-group {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 18px 20px;
+}
+
+.additional-programs-group h4 {
+    margin: 0 0 12px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #4338ca;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e0e7ff;
+}
+
+.additional-programs-group ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.additional-programs-group ul li {
+    position: relative;
+    padding-left: 18px;
+    font-size: 13.5px;
+    color: #374151;
+    line-height: 1.5;
+}
+
+.additional-programs-group ul li::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 8px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #a5b4fc;
+}

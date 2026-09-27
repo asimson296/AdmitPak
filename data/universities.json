@@ -2598,5 +2598,834 @@
       "sourceUrl": "https://www.hec.gov.pk/english/universities/Pages/Recognised-Universities-of-Pakistan.aspx",
       "verifiedOn": "2026-09-26"
     }
+  },
+  {
+    "id": 8,
+    "name": "Punjab University",
+    "fullName": "University of the Punjab",
+    "slug": "punjab-university",
+    "city": "Lahore",
+    "province": "Punjab",
+    "officialWebsite": "https://pu.edu.pk",
+    "applicationPortal": "https://admissions.pu.edu.pk",
+    "admission": {
+      "status": "open",
+      "lastCycle": {
+        "year": 2026,
+        "phase1Open": "2026-08-01",
+        "phase1Close": "2026-08-20",
+        "phase2Open": "2026-09-08",
+        "phase2Close": "2026-09-28",
+        "applicationClose": "2026-09-28"
+      },
+      "nextCycle": {
+        "year": 2027,
+        "published": false,
+        "expectedWindow": "Aug–Sep 2027",
+        "note": "Fall intake only. Phase-2 admissions for Fall 2026 currently open (8–28 Sep 2026) for vacant seats on first-come-first-served basis."
+      },
+      "applicationFee": "Challan-based — amount varies by program. See official portal.",
+      "lastVerified": "2026-09-27",
+      "verificationStatus": "verified"
+    },
+    "fees": {
+      "note": "PU fees depend on your program AND your mode. Morning (Regular) is subsidized; Self-Supporting (Replica/Evening) is significantly higher. Rates shown are for Fall 2026 / Spring 2027.",
+      "tuitionPerSemester": {
+        "morningHumanities": "Rs. 15,750 – Rs. 24,700",
+        "morningSciences": "Rs. 29,950 – Rs. 35,575",
+        "morningEngineeringBusiness": "Rs. 42,790 – Rs. 55,000",
+        "selfSupportingRange": "Rs. 47,300 – Rs. 132,500"
+      },
+      "serviceChargesPerSemester": "Rs. 8,500",
+      "examinationFeePerSemester": "Rs. 4,800",
+      "sportsMosqueFundPerSemester": "Rs. 950 (Fall only)",
+      "registrationFee": "Rs. 9,000 (one-time)",
+      "puDevelopmentFund": "Rs. 500 (one-time)",
+      "librarySecurity": "Rs. 5,000 (refundable)",
+      "llbBarCouncilFee": "Rs. 3,000 (LLB only, one-time)",
+      "additionalProgramCharges": "Engineering: Rs. 9,487/sem · FCIT (CS/SE/IT/DS/AI) & Physics: Rs. 6,000/sem · Food Science: Rs. 5,500/sem · Accounting/Taxation/E-Commerce: Rs. 5,475/sem",
+      "currency": "PKR",
+      "note2": "Download the full official schedule (PDF): https://pu.edu.pk/downloads/Dues-Fee-Schedule-for-the-Year-2026-27.pdf"
+    },
+    "programs": [
+      {
+        "name": "B.Sc. Chemical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "B.Sc. Electrical Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "B.Sc. Industrial Engineering & Management",
+        "group": "Engineering",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "B.Sc. Metallurgy & Materials Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "B.Sc. Energy Engineering",
+        "group": "Engineering",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Computer Science",
+        "group": "Computing & IT",
+        "campuses": [
+          "Quaid-i-Azam",
+          "Gujranwala",
+          "Jhelum",
+          "Pothohar"
+        ]
+      },
+      {
+        "name": "BS Information Technology",
+        "group": "Computing & IT",
+        "campuses": [
+          "Quaid-i-Azam",
+          "Gujranwala"
+        ]
+      },
+      {
+        "name": "BS Software Engineering",
+        "group": "Computing & IT",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Data Science",
+        "group": "Computing & IT",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Artificial Intelligence",
+        "group": "Computing & IT",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Cyber Security",
+        "group": "Computing & IT",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BBA (Hons.)",
+        "group": "Business & Commerce",
+        "campuses": [
+          "Quaid-i-Azam",
+          "Gujranwala",
+          "Jhelum",
+          "Pothohar"
+        ]
+      },
+      {
+        "name": "BS Commerce",
+        "group": "Business & Commerce",
+        "campuses": [
+          "Quaid-i-Azam",
+          "Gujranwala",
+          "Jhelum",
+          "Pothohar"
+        ]
+      },
+      {
+        "name": "BS Accounting & Finance",
+        "group": "Business & Commerce",
+        "campuses": [
+          "Quaid-i-Azam",
+          "Gujranwala"
+        ]
+      },
+      {
+        "name": "BS E-Commerce",
+        "group": "Business & Commerce",
+        "campuses": [
+          "Quaid-i-Azam",
+          "Gujranwala",
+          "Jhelum"
+        ]
+      },
+      {
+        "name": "BS Business Economics",
+        "group": "Business & Commerce",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Accounting & Taxation",
+        "group": "Business & Commerce",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Physics",
+        "group": "Sciences",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Chemistry",
+        "group": "Sciences",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Mathematics",
+        "group": "Sciences",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Mathematics with Computer Science",
+        "group": "Sciences",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Statistics",
+        "group": "Sciences",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Computational Physics",
+        "group": "Sciences",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Space Science",
+        "group": "Sciences",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Zoology",
+        "group": "Life Sciences",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Botany",
+        "group": "Life Sciences",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Microbiology & Molecular Genetics",
+        "group": "Life Sciences",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Biochemistry",
+        "group": "Life Sciences",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Biotechnology",
+        "group": "Life Sciences",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Psychology",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Applied Psychology",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Sociology",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Economics",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Political Science",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS International Relations",
+        "group": "Social Sciences & Law",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS English Literature",
+        "group": "Arts & Humanities",
+        "campuses": [
+          "Quaid-i-Azam",
+          "Gujranwala"
+        ]
+      },
+      {
+        "name": "BS Urdu",
+        "group": "Arts & Humanities",
+        "campuses": [
+          "Allama Iqbal"
+        ]
+      },
+      {
+        "name": "BS Islamic Studies",
+        "group": "Arts & Humanities",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS History",
+        "group": "Arts & Humanities",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "LLB (4 Years)",
+        "group": "Law",
+        "campuses": [
+          "Quaid-i-Azam",
+          "Pothohar"
+        ]
+      },
+      {
+        "name": "Pharm-D (Doctor of Pharmacy)",
+        "group": "Pharmacy",
+        "campuses": [
+          "Allama Iqbal"
+        ]
+      },
+      {
+        "name": "BS Public Health",
+        "group": "Health Sciences",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "Doctor of Physical Therapy (DPT)",
+        "group": "Health Sciences",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Medical Laboratory Technology",
+        "group": "Health Sciences",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Human Nutrition & Dietetics",
+        "group": "Health Sciences",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "B.Sc. (Hons.) Agriculture",
+        "group": "Agriculture",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Agribusiness",
+        "group": "Agriculture",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "B.Sc. (Hons.) Food Science & Technology",
+        "group": "Agriculture",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "B.Ed. (1.5 Years)",
+        "group": "Education",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "B.Ed. (Hons.) Elementary",
+        "group": "Education",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Special Education",
+        "group": "Education",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Media & Communication Studies",
+        "group": "Media & Communication",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      },
+      {
+        "name": "BS Journalism Studies",
+        "group": "Media & Communication",
+        "campuses": [
+          "Quaid-i-Azam"
+        ]
+      }
+    ],
+    "additionalPrograms": [
+      {
+        "name": "BFA Sculpture",
+        "group": "Arts & Humanities"
+      },
+      {
+        "name": "BFA Performing Arts & Musicology",
+        "group": "Arts & Humanities"
+      },
+      {
+        "name": "BS Archaeology",
+        "group": "Arts & Humanities"
+      },
+      {
+        "name": "BS French",
+        "group": "Arts & Humanities"
+      },
+      {
+        "name": "BS Philosophy",
+        "group": "Arts & Humanities"
+      },
+      {
+        "name": "BS Kashmir Studies",
+        "group": "Arts & Humanities"
+      },
+      {
+        "name": "BS Persian",
+        "group": "Arts & Humanities"
+      },
+      {
+        "name": "BS Punjabi",
+        "group": "Arts & Humanities"
+      },
+      {
+        "name": "BS Arabic",
+        "group": "Arts & Humanities"
+      },
+      {
+        "name": "BS Gender Studies",
+        "group": "Arts & Humanities"
+      },
+      {
+        "name": "BS Gender & Climate Change",
+        "group": "Arts & Humanities"
+      },
+      {
+        "name": "BS Physical Education",
+        "group": "Arts & Humanities"
+      },
+      {
+        "name": "BS Business Education",
+        "group": "Education"
+      },
+      {
+        "name": "BS Science Education",
+        "group": "Education"
+      },
+      {
+        "name": "BS Technology Education",
+        "group": "Education"
+      },
+      {
+        "name": "BS English (Applied Linguistics)",
+        "group": "Education"
+      },
+      {
+        "name": "B.Ed. (Secondary)",
+        "group": "Education"
+      },
+      {
+        "name": "B.Ed. (Elementary)",
+        "group": "Education"
+      },
+      {
+        "name": "B.Ed. (Islamic Education)",
+        "group": "Education"
+      },
+      {
+        "name": "B.Ed. (Early Childhood Care & Education)",
+        "group": "Education"
+      },
+      {
+        "name": "B.Ed. (Educational Leadership & Management)",
+        "group": "Education"
+      },
+      {
+        "name": "B.Ed. (Artificial Intelligence in Education)",
+        "group": "Education"
+      },
+      {
+        "name": "BS Communication Studies",
+        "group": "Media & Communication"
+      },
+      {
+        "name": "BS Public Relations & Advertising",
+        "group": "Media & Communication"
+      },
+      {
+        "name": "BS Film & Broadcast Media Studies",
+        "group": "Media & Communication"
+      },
+      {
+        "name": "BS Media & Development Communication",
+        "group": "Media & Communication"
+      },
+      {
+        "name": "BS Electronics",
+        "group": "Sciences"
+      },
+      {
+        "name": "BS Biophysics & Nano-biotechnology",
+        "group": "Sciences"
+      },
+      {
+        "name": "BS Nanoscience & Nanotechnology",
+        "group": "Sciences"
+      },
+      {
+        "name": "BS Solid State Physics",
+        "group": "Sciences"
+      },
+      {
+        "name": "BS Biostatistics",
+        "group": "Sciences"
+      },
+      {
+        "name": "BS Computational Statistics & Data Analytics",
+        "group": "Sciences"
+      },
+      {
+        "name": "BS Home Economics",
+        "group": "Life Sciences"
+      },
+      {
+        "name": "BS Geography",
+        "group": "Sciences"
+      },
+      {
+        "name": "BS Applied Geology",
+        "group": "Sciences"
+      },
+      {
+        "name": "BS Environmental Sciences",
+        "group": "Sciences"
+      },
+      {
+        "name": "BS Hydrology & Water Resources Management",
+        "group": "Sciences"
+      },
+      {
+        "name": "BS Geographical Information System",
+        "group": "Sciences"
+      },
+      {
+        "name": "BS Disaster Management",
+        "group": "Sciences"
+      },
+      {
+        "name": "BS Tourism & Hospitality Management",
+        "group": "Business & Commerce"
+      },
+      {
+        "name": "BS Social Work",
+        "group": "Social Sciences & Law"
+      },
+      {
+        "name": "BS Social Entrepreneurship",
+        "group": "Social Sciences & Law"
+      },
+      {
+        "name": "BS Criminology",
+        "group": "Social Sciences & Law"
+      },
+      {
+        "name": "BS Demography",
+        "group": "Social Sciences & Law"
+      },
+      {
+        "name": "BS Peace & Conflict Studies",
+        "group": "Social Sciences & Law"
+      },
+      {
+        "name": "BS Community Development & Participatory Governance",
+        "group": "Social Sciences & Law"
+      },
+      {
+        "name": "BS Diplomacy & Strategic Studies",
+        "group": "Social Sciences & Law"
+      },
+      {
+        "name": "BS Islamic Banking & Finance",
+        "group": "Business & Commerce"
+      },
+      {
+        "name": "BS Management",
+        "group": "Business & Commerce"
+      },
+      {
+        "name": "BS Management (5th Semester, Lateral Entry)",
+        "group": "Business & Commerce"
+      },
+      {
+        "name": "BS Audiology",
+        "group": "Health Sciences"
+      },
+      {
+        "name": "BS Optometry & Vision Sciences",
+        "group": "Health Sciences"
+      },
+      {
+        "name": "BS Workplace Health & Safety Promotion",
+        "group": "Health Sciences"
+      },
+      {
+        "name": "B.Sc. Polymer Engineering",
+        "group": "Engineering"
+      },
+      {
+        "name": "B.Sc. Chemical Engineering (Petroleum & Gas Specialization)",
+        "group": "Engineering"
+      },
+      {
+        "name": "BS Islamic Studies (Quran & Uloom-ul-Quran)",
+        "group": "Arts & Humanities"
+      },
+      {
+        "name": "BS Islamic Studies (Hadith & Uloom-ul-Hadith)",
+        "group": "Arts & Humanities"
+      },
+      {
+        "name": "BS Islamic Studies (Fiqh & Shariah)",
+        "group": "Arts & Humanities"
+      },
+      {
+        "name": "BS Islamic Studies (Islamic Economics)",
+        "group": "Arts & Humanities"
+      },
+      {
+        "name": "BS Islamic Studies (Study of World Religions)",
+        "group": "Arts & Humanities"
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "PU Merit Scholarship",
+        "type": "Internal",
+        "description": "Awarded to top merit position holders in each program. Covers partial or full tuition fee."
+      },
+      {
+        "name": "PU Need-Based Financial Aid",
+        "type": "Internal",
+        "description": "For financially deserving students. Applied through the Financial Aid Office."
+      },
+      {
+        "name": "Hafiz-e-Quran Bonus Marks",
+        "type": "Internal",
+        "description": "20 additional marks in the merit formula for Hafiz-e-Quran applicants (verified by interview)."
+      },
+      {
+        "name": "PEEF",
+        "type": "External",
+        "description": "Punjab Educational Endowment Fund. Punjab domicile, 60%+ Intermediate, family income ≤ Rs. 60,000/month."
+      },
+      {
+        "name": "Punjab Honhaar Scholarship",
+        "type": "External",
+        "description": "Punjab Higher Education Commission scholarship for deserving students."
+      },
+      {
+        "name": "Pakistan Bait-ul-Mal Stipends",
+        "type": "External",
+        "description": "Federal financial assistance for deserving students."
+      },
+      {
+        "name": "Workers Welfare Fund (WWF)",
+        "type": "External",
+        "description": "For children of factory/mill workers registered with WWB."
+      },
+      {
+        "name": "HEC Need-Based Scholarships",
+        "type": "External",
+        "description": "Higher Education Commission financial aid program."
+      },
+      {
+        "name": "Chinese Government Scholarship",
+        "type": "External",
+        "description": "Available through Confucius Institute at PU for Chinese language students."
+      },
+      {
+        "name": "Various Departmental Scholarships",
+        "type": "External",
+        "description": "Many PU departments offer their own donor-funded scholarships. Check with your specific department."
+      }
+    ],
+    "eligibility": [
+      {
+        "group": "How PU Admissions Work",
+        "programs": [
+          "All Undergraduate Programs"
+        ],
+        "sscMin": "—",
+        "hsscMin": "50–60% (varies by program)",
+        "subjects": "Varies by program — check official requirements",
+        "entryTests": [
+          "No entry test required",
+          "Admissions are OPEN MERIT based on FSc/Intermediate marks"
+        ],
+        "weightage": null,
+        "note": "PU does NOT require ECAT, NET, or any entrance test. Merit is calculated purely from your Matric + FSc marks (plus bonus marks if applicable)."
+      },
+      {
+        "group": "Merit Calculation Formula",
+        "programs": [
+          "BS (4-Year) Programs"
+        ],
+        "sscMin": "Formula: (1/4 × Matric %) + (FSc %) + Bonus Marks",
+        "hsscMin": "Bonus Marks include: Hafiz-e-Quran (+20), Diploma (+20), Elective (+20), Optional (+10), Subject combination (+10)",
+        "subjects": "Two marks deducted per late year (max 5 years) for session gap",
+        "entryTests": [
+          "No entry test"
+        ],
+        "weightage": {
+          "matric": "25%",
+          "fsc": "75%",
+          "bonus": "added"
+        },
+        "note": "Total merit = [(1/4 × Matric marks) + FSc marks + Bonus marks] ÷ [(1/4 × Matric total) + FSc total] × 100. For 70% academic weightage programs, multiply by 70."
+      },
+      {
+        "group": "Admission Modes",
+        "programs": [
+          "All Programs"
+        ],
+        "sscMin": "—",
+        "hsscMin": "—",
+        "subjects": "Morning (regular) — lower fee, most competitive\nSelf-Supporting — higher fee, less competitive\nReplica — for students who missed Morning merit\nAfternoon / Evening — alternate shifts",
+        "entryTests": [
+          "Same merit criteria across modes"
+        ],
+        "weightage": null,
+        "note": "You can apply in multiple modes for the same program. Morning is the cheapest and most competitive."
+      },
+      {
+        "group": "Phase 2 (Vacant Seats)",
+        "programs": [
+          "Selected Programs — Currently Open"
+        ],
+        "sscMin": "—",
+        "hsscMin": "Same as Phase 1",
+        "subjects": "—",
+        "entryTests": [
+          "No test"
+        ],
+        "weightage": null,
+        "note": "Fall 2026 Phase 2 admissions open 8–28 Sep 2026 on FIRST-COME-FIRST-SERVED basis. Challan generation time is the deciding factor for limited seats."
+      }
+    ],
+    "entryTest": "No entry test — Open Merit based on FSc/Matric marks",
+    "about": {
+      "summary": "University of the Punjab is Pakistan's oldest and largest public university, established in 1882, with over 45,000 students across 6 campuses and 150+ undergraduate programs.",
+      "reputation": "Established in 1882 — Pakistan's first university. Nobel laureates (Dr. Abdus Salam) and notable alumni in every field. Highest number of PhD faculty in Pakistan. Federally chartered, one of the most affordable public universities in the country.",
+      "bestFor": "Students seeking affordable, high-quality higher education across a vast range of disciplines — from engineering and computing to arts, languages, sciences and law. Especially strong for students who want a well-recognized public university degree at very low cost.",
+      "strengths": [
+        "Pakistan's oldest university (est. 1882 — 140+ years)",
+        "150+ undergraduate programs across 20+ faculties",
+        "6 campuses: Quaid-i-Azam, Allama Iqbal, Gujranwala, Jhelum, Pothohar, Khanspur",
+        "Most affordable public university fees in Pakistan",
+        "NO entry test required — pure open merit admission",
+        "One of the largest PhD faculty in the country",
+        "Alumni include Nobel laureate Dr. Abdus Salam"
+      ]
+    },
+    "sources": {
+      "admissions": "https://pu.edu.pk/home/admission_notices",
+      "programs": "https://admissions.pu.edu.pk/admissions/offered-programs",
+      "fees": "https://pu.edu.pk/downloads/Dues-Fee-Schedule-for-the-Year-2026-27.pdf",
+      "scholarships": "https://scholarships.pu.edu.pk/",
+      "eligibility": "https://pu.edu.pk/regulations/contents/Admission-criteria.html"
+    },
+    "changeHistory": [
+      {
+        "date": "2026-09-27",
+        "action": "Initial data population from official PU website",
+        "source": "manual"
+      }
+    ],
+    "hec": {
+      "recognized": true,
+      "sourceUrl": "https://www.hec.gov.pk/english/universities/Pages/Recognised-Universities-of-Pakistan.aspx",
+      "verifiedOn": "2026-09-27"
+    },
+    "heroImage": "/images/universities/pu.webp"
   }
 ]
