@@ -86,4 +86,19 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+    <url>
+        <loc>https://admitpak.onrender.com/university.html?slug=giki</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://admitpak.onrender.com/university.html?slug=punjab-university</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://admitpak.onrender.com/university.html?slug=neduet</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
