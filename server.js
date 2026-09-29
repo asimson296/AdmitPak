@@ -342,7 +342,7 @@ app.get("/api/feedback/count", requireAuth, async (req, res) => {
     res.json({ count });
 });
 
-// Start server
+// Start server (continues even if MongoDB is unreachable — degraded mode for local dev)
 connectToMongoDB()
     .then(() => {
         app.listen(PORT, () => {
@@ -350,6 +350,10 @@ connectToMongoDB()
         });
     })
     .catch(err => {
-        console.error("❌ Failed to start server:", err.message);
-        process.exit(1);
+        console.error("⚠️  MongoDB connection failed:", err.message);
+        console.error("⚠️  Starting server in DEGRADED MODE (no auth/tracking/feedback).");
+        console.error("⚠️  This only affects local development. Render will connect normally.");
+        app.listen(PORT, () => {
+            console.log(`AdmitPak is running at http://localhost:${PORT} (degraded mode)`);
+        });
     });
