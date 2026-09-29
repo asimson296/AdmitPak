@@ -3478,3 +3478,14 @@ body {
     border-radius: 50%;
     background: #a5b4fc;
 }
+
+/* ---------- Footer credit ---------- */
+.footer-credit {
+    font-size: 13px;
+    color: #94a3b8;
+    margin: 6px 0 0;
+}
+.footer-credit strong {
+    color: #6366f1;
+    font-weight: 700;
+}
