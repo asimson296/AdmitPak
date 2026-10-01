@@ -1,0 +1,25 @@
+{
+  "universityId": 4,
+  "universityName": "LUMS",
+  "sourceUrl": "https://admissions.lums.edu.pk",
+  "sourceType": "html",
+  "detectedAt": "2026-10-01T08:53:18.492Z",
+  "previousSnapshot": "/home/runner/work/AdmitPak/AdmitPak/data/source-snapshots/4-lums-admissions-1790842004778.json",
+  "currentSnapshot": "/home/runner/work/AdmitPak/AdmitPak/data/source-snapshots/4-lums-admissions-1790844798492.json",
+  "previousContentHash": "0051eca0efe72e9b9ff39b1c5575bab1a0683bf1af2e8a3ca84df050b571a3b7",
+  "currentContentHash": "95d1c5b85f4fc14fb09a60152a5cd5ccdf4d3c9e3d02906430660c86901be85e",
+  "changeStatus": "changed",
+  "reviewStatus": "pending",
+  "fieldChanges": [],
+  "tableChanges": [],
+  "evidence": {
+    "previousContent": "LUMS Online Admission Sign In New Here? Create Account Username Password Login with PIN Recover Your Account Sign In Copyright © 2026. Lahore University of Management Sciences (LUMS), Pakistan - All Rights Reserved LUMS Online Admissions",
+    "currentContent": "LUMS Online Admission Sign In New Here? Create Account Username Password Login with PIN Recover Your Account Sign In Copyright &copy; 2026. Lahore University of Management Sciences (LUMS), Pakistan - All Rights Reserved LUMS Online Admissions"
+  },
+  "verification": {
+    "verifiedBy": null,
+    "verifiedAt": null,
+    "decision": null,
+    "notes": null
+  }
+}
