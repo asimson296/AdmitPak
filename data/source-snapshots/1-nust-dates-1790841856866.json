@@ -1,0 +1,71 @@
+{
+  "universityId": 1,
+  "universityName": "NUST",
+  "sourceId": "nust-dates",
+  "sourceUrl": "https://nust.edu.pk/admissions/undergraduates/dates-to-remember/",
+  "sourceType": "html",
+  "retrievedAt": "2026-10-01T08:04:16.866Z",
+  "contentHash": "a55ab098f0f481041763fa769686da0fa5db2b216d68b219c371c995a7ec741f",
+  "extractionMethod": "html-text",
+  "content": "DATES TO REMEMBER | NUST National University of Sciences &amp; Technology Office of Rector Students Alumni Distance Learning Giving to NUST Jobs Downloads About Institutions Admissions Academics Research &amp; Innovation International Campus Life English Arabic Chinese (Simplified) English Russian Urdu National University of Sciences &amp; Technology English Arabic Chinese (Simplified) English Russian Urdu About Institutions Admissions Academics Research &amp; Innovation International Campus Life Admissions Undergraduates DATES TO REMEMBER DATES TO REMEMBER Schedule of NUST Entry Test – 2027 (Tentative) Series​ Online Registration​ ​CBNET PBNET Test Centre Series – 1​ 4 Oct – 14 Nov 2026 17 Nov 2026 onwards – Isb Series – 2 Dec 2026 –&nbsp; Jan 2027 Jan – Feb 2027 (Isb) Mar 2027 (Qta) Mar 2027 (Kci) Isb, Qta, Kci Series – 3 Feb – Mar 2027 &nbsp;Apr 2027 – Isb Series – 4 Apr – May 2027 Jun – Jul 2027 (Isb) Jul 2027 (Qta)&nbsp; Jul 2027 (Kci, Glt) Isb, Qta, Kci, Glt Notes : For each series, separate online registration form is required to be submitted. CBNET – Computer Based NUST Entry Test at Islamabad and Quetta PBNET – Paper Based NUST Entry Test at Karachi and Gilgit Schedule of ACT / SAT Basis Applications – 2027 Online Registration​ ​Last Date to Receive​ ACT / SAT Scores 4 May – 25 July 2027 25 July 2027 &nbsp; Commencement of Undergraduate Programmes – 2026 &nbsp; Engineering / Computing Programmes / Environmental Science SCEE, SMME, SCME, SEECS, PNEC, MCE, CoEME, NBC September, 2026 ​MCS October, 2026 CAE November, 2026 &nbsp; Business Studies, Social &amp; Natural Sciences and Arch &amp; Design / LLB ​NBS, S3H September, 2026 ​SADA ​September, 2026 ​SNS September, 2026 &nbsp; Biotechnology / Food Science &amp; Technology / Agriculture ​ASAB September, 2026 &nbsp; Submission of ACT / SAT Results ACT / SAT scores should reach NUST from ACT / College Board, USA. It is the responsibility of the candidate to provide ACT / SAT scores by due date. &nbsp; Selection of Candidates Selection of candidates for all UG Programmes will start in August 2026 (tentative) as per given dates. Undergraduate Programmes How to Apply for NET ENTRY ROUTE TO NUST UPDATES ON UG ADMISSIONS LIST OF UG PROGRAMMES AND INSTITUTIONS SALIENT FEATURES OF ADMISSION POLICY FOR UG PROGRAMMES DATES TO REMEMBER EXPATRIATE STUDENTS ELIGIBILITY CRITERIA FOR UG PROGRAMMES INELIGIBILITY CRITERIA ACADEMIC QUALIFICATION REQUIRED FOR DIFFERENT UG PROGRAMMES DAE – Eligibility Criteria PROCEDURE OF ADMISSION ON THE BASIS OF NET SUBJECTS INCLUDED IN NET WITH WEIGHTINGS MERIT GENERATION CRITERIA RE-CHECKING OF NET PAPERS APPLYING ON THE BASIS OF ACT/SAT NET APPLICATION PROCESSING FEE UNDERGRADUATE ADMISSION / SELECTION PROCESS International Students CANCELLATION OF ADMISSION Migration &amp; Transfer Policy UG ADMISSIONS HELP DESK GUIDE MAP FOR TEST VENUE UG AWARENESS DRIVES Frequently Asked Question (FAQs) Photo Gallery Master Programmes ADMISSION ANNOUNCEMENT DATES TO REMEMBER CANCELLATION OF ADMISSION INTERNATIONAL STUDENTS INSTRUCTIONS FOR ONLINE APPLICATION FORM PROGRAMMES OF STUDY ELIGIBILITY CRITERIA ADMISSION PROCESS AND SELECTION PROCEDURE EXPATRIATE STUDENT MS HELPLINE FAQs PhD Programmes PhD ADMISSIONS PROGRAMMES OFFERED EXPATRIATE STUDENT – PHD INTERNATIONAL PhD CANDIDATE INSTRUCTIONS FOR FILLING ADMISSION FORM DATES TO REMEMBER FREQUENTLY ASKED QUESTIONS (FAQs) ELIGIBILITY CRITERIA Scholarships DEFERMENT OF TUITION FEE &amp; SUBSISTENCE ALLOWANCE FINANCIAL ASSISTANCE FOR UNDERGRADUATE STUDENTS FREQUENTLY ASKED QUESTIONS (FAQS) GUIDELINES TO SUBMIT NEED BASED FINANCIAL AID APPLICATION FORM (NFAAF) INTEREST FREE LOAN (IHSAN TRUST) MERIT BASED SCHOLARSHIPS FOR MASTERS AND PhD NEED BASED FINANCIAL AID NFAAF- DOCUMENTATION REQUIREMENTS FORMS AND CERTIFICATES OTHER OPPORTUNITIES PUNJAB EDUCATIONAL ENDOWMENT FUND (PEEF) SCHOLARSHIPS 2024-25 Fee Structure UNDERGRADUATE FINANCIAL MATTERS POSTGRADUATE FINANCIAL MATTERS REFUND POLICY ADVANCE TAX ON PAYMENT OF FEE HOSTEL ACCOMMODATION MODE OF PAYMENT OTHER FEE CHARGES CONTACT US FREQUENTLY ASKED QUESTIONS Salient Features of Fee Policy Career Development Placements Centre for Counselling &amp; Career Advisory Professional Development Quality Assurance NUST Institute of Policy Studies Student Affairs Industry-Academia Linkages IMPORTANT LINKS In Focus &gt; NUST at a Glance &gt; Academic Calender &gt; Academic Schedule &gt; Student Helplines &gt; Facilities at NUST &gt; Contact Us &gt; Trademark Notice &gt; World Political Map Quick Links &gt; Innovation &amp; Commercialisation &gt; Library &gt; Downloads &gt; Defaulter's list &gt; Grievances Review Committee &gt; Tender Information &gt; NUST Anti-Harassment Helpline &gt; Online Degree/Transcript Verification &gt; Career Development Centre &gt; Learning Management System (LMS) NUST UAN +92-51-111-11-6878 Address National University of Sciences &amp; Technology (NUST) Campus, Sector H-12, Islamabad, Pakistan Location Map Home Privacy Policy Disclaimer Contact Us © 2026 National University of Sciences and Technology. All Rights Reserved. -->",
+  "structuredData": {
+    "tables": [
+      {
+        "tableIndex": 0,
+        "headers": [
+          "Series​",
+          "Online Registration​",
+          "​CBNET",
+          "PBNET",
+          "Test Centre",
+          "Series – 1​",
+          "Series – 2",
+          "Series – 3",
+          "Series – 4"
+        ],
+        "rows": []
+      },
+      {
+        "tableIndex": 1,
+        "headers": [
+          "Online Registration​",
+          "​Last Date to Receive​ ACT / SAT Scores"
+        ],
+        "rows": [
+          {
+            "label": "4 May – 25 July 2027",
+            "​Last Date to Receive​ ACT / SAT Scores": "25 July 2027"
+          }
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "headers": [
+          "SCEE, SMME, SCME, SEECS, PNEC, MCE, CoEME, NBC",
+          "September, 2026",
+          "​MCS",
+          "CAE"
+        ],
+        "rows": []
+      },
+      {
+        "tableIndex": 3,
+        "headers": [
+          "​NBS, S3H",
+          "September, 2026",
+          "​SADA",
+          "​SNS"
+        ],
+        "rows": []
+      },
+      {
+        "tableIndex": 4,
+        "headers": [
+          "​ASAB",
+          "September, 2026"
+        ],
+        "rows": []
+      }
+    ]
+  }
+}

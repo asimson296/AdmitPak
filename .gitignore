@@ -11,10 +11,8 @@ data/users.json
 data/feedback/
 data/feedback.json
 data/feedback.json.bak
-data/source-snapshots/*.json
-!data/source-snapshots/README.md
-data/change-reports/*.json
-!data/change-reports/README.md
+# source-snapshots allowed — SkyWatch needs previous state
+# change-reports allowed — SkyWatch pushes reports here
 data/verification/
 
 # Backups

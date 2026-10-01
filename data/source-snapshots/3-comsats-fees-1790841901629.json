@@ -1,0 +1,12 @@
+{
+  "universityId": 3,
+  "universityName": "COMSATS",
+  "sourceId": "comsats-fees",
+  "sourceUrl": "https://admissions.comsats.edu.pk/Content/files/Fee-Structure-Fall-2026%20(2).pdf",
+  "sourceType": "pdf",
+  "retrievedAt": "2026-10-01T08:05:01.629Z",
+  "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "extractionMethod": "pdftotext",
+  "content": "",
+  "structuredData": null
+}
