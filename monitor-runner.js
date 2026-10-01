@@ -7,6 +7,7 @@ const http = require("http");
 // We only read public pages, so we allow them here.
 const insecureAgent = new https.Agent({ rejectUnauthorized: false });
 
+const { chromium } = require("playwright");
 const { processSource } = require("./source-processor");
 const { saveSnapshot } = require("./snapshot-manager");
 const { createChangeReport } = require("./change-report");
@@ -14,32 +15,39 @@ const { createChangeReport } = require("./change-report");
 const CONFIG_FILE = path.join(__dirname, "data", "monitor-config.json");
 const SNAPSHOT_DIR = path.join(__dirname, "data", "source-snapshots");
 
-function fetchSource(url) {
-    return new Promise((resolve, reject) => {
-        const client = url.startsWith("https://") ? https : http;
-        const request = client.get(
-            url,
-            { headers: { "User-Agent": "AdmitPak-Monitor/1.0" }, agent: insecureAgent },
-            response => {
-                if (response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
-                    response.resume();
-                    fetchSource(new URL(response.headers.location, url).toString())
-                        .then(resolve).catch(reject);
-                    return;
-                }
-                if (response.statusCode !== 200) {
-                    response.resume();
-                    reject(new Error(`HTTP ${response.statusCode}`));
-                    return;
-                }
-                let data = "";
-                response.setEncoding("utf8");
-                response.on("data", chunk => { data += chunk; });
-                response.on("end", () => resolve(data));
-            }
-        );
-        request.on("error", reject);
-    });
+let sharedBrowser = null;
+
+async function getBrowser() {
+  if (!sharedBrowser) {
+    sharedBrowser = await chromium.launch({ headless: true });
+  }
+  return sharedBrowser;
+}
+
+async function closeBrowser() {
+  if (sharedBrowser) {
+    await sharedBrowser.close();
+    sharedBrowser = null;
+  }
+}
+
+async function fetchSource(url) {
+  const browser = await getBrowser();
+  const context = await browser.newContext({
+    userAgent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    viewport: { width: 1366, height: 768 }
+  });
+  const page = await context.newPage();
+
+  try {
+    await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
+    // Give JS-rendered pages a moment to settle
+    await page.waitForTimeout(2000);
+    const html = await page.content();
+    return html;
+  } finally {
+    await context.close();
+  }
 }
 
 function safeSlug(str) {
@@ -259,14 +267,18 @@ function padEnd(str, len) {
 }
 
 if (require.main === module) {
-    runMonitoring().catch(error => {
+    runMonitoring()
+      .then(() => closeBrowser())
+      .catch(async (error) => {
         console.error(error);
+        await closeBrowser();
         process.exit(1);
-    });
+      });
 }
 
 module.exports = {
     fetchSource,
+    closeBrowser,
     getLatestSnapshot,
     monitorSource,
     runMonitoring

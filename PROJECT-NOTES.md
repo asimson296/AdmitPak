@@ -327,3 +327,139 @@ Date: September 29, 2026
 By: Pappu (with AI assistant)
 
 Contact: admitpak.pk@gmail.com
+
+
+## 18. Campus-Level Data Architecture (V2 Plan)
+
+**Saved: September 30, 2026**
+
+Multi-campus universities in Pakistan (FAST, COMSATS, NUST, Bahria) have DIFFERENT data per campus:
+- Closing merits (Islamabad vs Chiniot vs Lahore differ significantly)
+- Entry test rules (some campuses accept NAT, main campus requires own test)
+- Fees (city-specific overhead)
+- Deadlines (campus-specific registrations)
+- Hostel + transport costs
+
+### Current V1 Approach
+- One university entry
+- Programs have a simple `campuses: ["Islamabad", "Lahore"]` array
+- No campus-specific fees, merits, or deadlines
+
+### V2 Planned Approach (Parent-Child)
+Use one-to-many relationship:
+- One university entry (parent)
+- `campuses` array containing objects with:
+  - campus_id, city, is_main_campus
+  - deadline, entry_test, fee_per_semester, closing_merit_<program>
+
+### UI in V2
+- University card: "FAST NUCES (5 Campuses)"
+- Click -> dropdown to select city
+- Selected city loads hyper-accurate merit, deadline, fee
+
+### When to Implement
+V2 (2-3 months) - after 20+ universities and 100+ users.
+NOT before. Current structure is enough for V1.
+
+### Why Not Now
+- Current structure works for the 8 universities we have
+- Zero users to be confused by inaccurate data
+- Restructuring = days of work
+- Better ROI: add 5 more universities instead
+
+
+
+## 19. Target University List — 50 by Oct 31, 2026
+
+**Goal:** 8 -> 50 universities by end of October 2026
+**Pace:** ~1.4 universities/day for 30 days
+
+### Currently Live (8)
+1. NUST
+2. FAST-NUCES
+3. COMSATS
+4. LUMS
+5. UET Lahore
+6. GIKI
+7. Punjab University
+8. NED University
+
+### To Add (42 remaining)
+
+**Islamabad (Federal):**
+9. Quaid-i-Azam University (QAU) - Natural & Social Sciences
+10. PIEAS - Nuclear, System Engineering
+11. Air University - Aerospace, Computing, Management
+12. Bahria University - Management, Media, Law
+13. IIUI - Islamic Studies, Social Sciences
+14. NUML - Languages, Management
+
+**Punjab - Lahore:**
+15. GCU Lahore - Arts, Sciences
+16. King Edward Medical University (KEMU) - MBBS
+17. University of Health Sciences (UHS) - Medical
+18. ITU - Data Science, AI
+19. University of Lahore (UOL) - Allied Health, Engineering
+20. University of Central Punjab (UCP) - Business, Media
+21. Lahore School of Economics (LSE) - Finance, Economics
+22. Kinnaird College - Liberal Arts, Sciences
+
+**Punjab - Faisalabad:**
+23. University of Agriculture Faisalabad (UAF)
+24. GCUF - General, Sciences
+25. National Textile University (NTU)
+
+**Punjab - Rawalpindi/Taxila:**
+26. NUMS - Medical
+27. UET Taxila - Mechanical, Civil, Telecom
+28. PMAS Arid Agriculture University
+
+**Punjab - Other:**
+29. Bahauddin Zakariya University (BZU) Multan
+30. Islamia University Bahawalpur (IUB)
+31. University of Gujrat (UOG)
+32. University of Sargodha (UOS)
+
+**Sindh - Karachi:**
+33. Aga Khan University (AKU) - Medicine, Nursing
+34. IBA Karachi - Business
+35. University of Karachi (UOK)
+36. Dow University of Health Sciences (DUHS)
+37. Habib University - Liberal Arts, EE
+38. Iqra University - Business, Fashion
+39. SZABIST - Management, Computing
+40. Institute of Business Management (IoBM)
+
+**Sindh - Jamshoro/Sukkur:**
+41. Sukkur IBA - IT, Business
+42. Mehran University (MUET) - Industrial, Electrical
+43. University of Sindh - General
+
+**Khyber Pakhtunkhwa:**
+44. University of Peshawar (UOP)
+45. UET Peshawar - Mining, Civil
+46. Khyber Medical University (KMU)
+47. Islamia College University Peshawar
+48. Pak-Austria Fachhochschule (PAF-IAST)
+
+**Balochistan, AJK, GB:**
+49. University of Balochistan (UOB)
+50. Mirpur University of Science and Technology (MUST)
+
+### Reality Check
+- 45 min research + 15 min data entry + 5 min image/monitoring per uni
+- ~65 min per university
+- 42 universities = 45 hours = 1.5 hrs/day for 30 days
+- Some sites messy (UOK, colleges) -> may take longer
+- Some sites clean (PIEAS, Air Uni) -> faster
+
+### Strategy
+- Batch by city/region (research in groups)
+- Skip hero images initially (add later in batches)
+- Prioritize: Islamabad -> Lahore -> Karachi -> Others
+- Quality over speed: DO NOT skip data accuracy
+- If running behind, extend to Nov 15 instead of rushing
+
+### Sources for Each
+Use official admission portal + HEC recognition page + PEC/NCEAC where relevant.
+
