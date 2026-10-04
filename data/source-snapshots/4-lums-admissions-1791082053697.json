@@ -1,0 +1,14 @@
+{
+  "universityId": 4,
+  "universityName": "LUMS",
+  "sourceId": "lums-admissions",
+  "sourceUrl": "https://admissions.lums.edu.pk",
+  "sourceType": "html",
+  "retrievedAt": "2026-10-04T02:47:33.697Z",
+  "contentHash": "edacfd288326bb307540c377adff3b769b730317bcfd994c3245dd6df3461580",
+  "extractionMethod": "html-text",
+  "content": "LUMS Online Admission Admissions Fall - 2027 Opening Soon!",
+  "structuredData": {
+    "tables": []
+  }
+}

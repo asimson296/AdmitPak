@@ -1,0 +1,14 @@
+{
+  "universityId": 3,
+  "universityName": "COMSATS",
+  "sourceId": "comsats-eligibility",
+  "sourceUrl": "https://admissions.comsats.edu.pk/Home/EligibilityCriteria?pt=BS",
+  "sourceType": "html",
+  "retrievedAt": "2026-10-04T02:47:30.319Z",
+  "contentHash": "63b4fcce86259e8c6224637174642c3a3cc98a8e07b36b595eed138a7701bf15",
+  "extractionMethod": "html-text",
+  "content": "Access Denied You are not authorized to access Please disable VPN or Proxy and try again. Copyright © COMSATS University Islamabad",
+  "structuredData": {
+    "tables": []
+  }
+}
