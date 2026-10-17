@@ -1,0 +1,14 @@
+{
+  "universityId": 1,
+  "universityName": "NUST",
+  "sourceId": "nust-dates",
+  "sourceUrl": "https://nust.edu.pk/admissions/undergraduates/dates-to-remember/",
+  "sourceType": "html",
+  "retrievedAt": "2026-10-17T22:54:09.296Z",
+  "contentHash": "fb76952fd9eaae2ece24a5a3db5411c67338ce963f04f5ff6c6a105ab3a7e297",
+  "extractionMethod": "html-text",
+  "content": "nust.edu.pk | 522: Connection timed out Connection timed out Error code 522 Visit cloudflare.com for more information. 2026-10-17 22:54:07 UTC You Browser Working Chicago Cloudflare Working nust.edu.pk Host Error What happened? The initial connection between Cloudflare's network and the origin web server timed out. As a result, the web page can not be displayed. What can I do? If you're a visitor of this website: Please try again in a few minutes. If you're the owner of this website: Contact your hosting provider letting them know your web server is not completing requests. An Error 522 means that the request was able to connect to your web server, but that the request didn't finish. The most likely cause is that something on your server is hogging resources. Additional troubleshooting information here. Cloudflare Ray ID: a4c2e1a4ccd3d94a • Your IP: Click to reveal 135.119.22.243 • Performance &amp; security by Cloudflare",
+  "structuredData": {
+    "tables": []
+  }
+}
