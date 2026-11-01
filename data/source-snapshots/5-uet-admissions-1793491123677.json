@@ -1,0 +1,14 @@
+{
+  "universityId": 5,
+  "universityName": "UET Lahore",
+  "sourceId": "uet-admissions",
+  "sourceUrl": "https://admission.uet.edu.pk/",
+  "sourceType": "html",
+  "retrievedAt": "2026-10-31T23:58:43.677Z",
+  "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "extractionMethod": "html-text",
+  "content": "",
+  "structuredData": {
+    "tables": []
+  }
+}
